@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tiny-teller-backend
+  labels:
+    app: tiny-teller-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tiny-teller-backend
+  template:
+    metadata:
+      labels:
+        app: tiny-teller-backend
+    spec:
+      containers:
+        - name: backend
+          image: ghcr.io/<owner>/tiny-teller-backend:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: PORT
+              value: "8080"
+            - name: DATABASE_URL
+              value: "postgres://tiny:tiny@tiny-teller-postgres:5432/tiny_teller"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tiny-teller-backend
+spec:
+  selector:
+    app: tiny-teller-backend
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  type: ClusterIP

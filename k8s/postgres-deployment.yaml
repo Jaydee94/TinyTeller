@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tiny-teller-postgres
+  labels:
+    app: tiny-teller-postgres
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tiny-teller-postgres
+  template:
+    metadata:
+      labels:
+        app: tiny-teller-postgres
+    spec:
+      containers:
+        - name: postgres
+          image: postgres:15-alpine
+          env:
+            - name: POSTGRES_USER
+              value: "tiny"
+            - name: POSTGRES_PASSWORD
+              value: "tiny"
+            - name: POSTGRES_DB
+              value: "tiny_teller"
+          ports:
+            - containerPort: 5432
+          volumeMounts:
+            - name: pgdata
+              mountPath: /var/lib/postgresql/data
+      volumes:
+        - name: pgdata
+          emptyDir: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tiny-teller-postgres
+spec:
+  selector:
+    app: tiny-teller-postgres
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
+  type: ClusterIP

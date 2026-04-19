@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tiny-teller-frontend
+  labels:
+    app: tiny-teller-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tiny-teller-frontend
+  template:
+    metadata:
+      labels:
+        app: tiny-teller-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: ghcr.io/<owner>/tiny-teller-frontend:latest
+          ports:
+            - containerPort: 80
+          env:
+            - name: VITE_API_BASE
+              value: "/api"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tiny-teller-frontend
+spec:
+  selector:
+    app: tiny-teller-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: ClusterIP
