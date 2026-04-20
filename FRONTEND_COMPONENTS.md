@@ -765,6 +765,50 @@ const authHeaders = {
 **Note for Backend / CTO:**
 - UX preference: httpOnly cookie for security and seamless UX. Please confirm which approach the backend will implement so frontend docs and example code can be finalized.
 
+### Cookie-specific guidance (frontend)
+
+When the backend issues httpOnly cookies, the frontend must include credentials on fetch requests and does not need to attach an Authorization header. Example flows:
+
+1) Login / Register (send credentials, allow server to set cookie):
+
+```ts
+await fetch('/api/auth/login', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  credentials: 'include', // important so browser accepts httpOnly cookie from server
+  body: JSON.stringify({ email, password }),
+});
+```
+
+2) Story generation request (cookie will be sent automatically):
+
+```ts
+await fetch('/api/stories/generate', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  credentials: 'include', // include cookies on cross-origin requests during dev
+  body: JSON.stringify({ theme: 'animals' }),
+});
+```
+
+3) Local-dev fallback (when server returns token in body):
+
+```ts
+// store token only in dev fallback mode
+localStorage.setItem('authToken', data.token);
+
+await fetch('/api/stories/generate', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${localStorage.getItem('authToken')}`,
+  },
+  body: JSON.stringify({ theme: 'animals' }),
+});
+```
+
+Cross-origin notes: If frontend and backend run on different origins in dev, backend must set CORS `Access-Control-Allow-Credentials: true` and allow the frontend origin. Use `credentials: 'include'` in fetch to ensure cookie behavior.
+
 ---
 
 ### Story Generation
@@ -958,6 +1002,13 @@ const pageVariants = {
 - Should we use `/api/items` as a substitute for MVP?
 - Is token stored in httpOnly cookie or returned in response body?
 - What is the expected story generation response time? (<2s ideal)
+
+### MVP Note: Auth Disabled By Default
+
+For the initial MVP demo, authentication is disabled by default to simplify onboarding and testing. Set the Vite environment variable `VITE_ENABLE_AUTH=true` to enable token storage and full auth flows in development or staging.
+
+- Default: `VITE_ENABLE_AUTH` is treated as `false` (do not store tokens or require login for Magic flow)
+- To enable auth features (login/register storing token): set `VITE_ENABLE_AUTH=true` in your `.env` file used by Vite.
 
 ---
 
