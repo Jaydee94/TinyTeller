@@ -26,10 +26,16 @@ const LANGUAGE_LABEL: Record<string, string> = {
   de: '🇩🇪 DE',
 }
 
+const ANOTHER_STORY_LABEL: Record<string, string> = {
+  en: '✨ Another Story',
+  de: '✨ Noch eine Geschichte',
+}
+
 export default function StoryCard({ story }: StoryCardProps) {
   const navigate = useNavigate()
   const emoji = THEME_EMOJI[story.theme] ?? '✨'
   const languageLabel = story.language ? LANGUAGE_LABEL[story.language] : null
+  const anotherStoryLabel = ANOTHER_STORY_LABEL[story.language ?? 'en'] ?? ANOTHER_STORY_LABEL.en
 
   return (
     <article className={styles.card}>
@@ -53,9 +59,9 @@ export default function StoryCard({ story }: StoryCardProps) {
         <button
           className={styles.again}
           onClick={() => navigate('/')}
-          aria-label="Read another story"
+          aria-label={anotherStoryLabel}
         >
-          ✨ Another Story
+          {anotherStoryLabel}
         </button>
       </footer>
     </article>

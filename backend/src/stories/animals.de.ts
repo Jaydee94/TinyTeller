@@ -2,147 +2,320 @@ import { StoryTemplate } from '../types'
 
 export const animalStoriesDe: StoryTemplate[] = [
   {
-    title: 'Die kleine Ente, die ihr Quak verloren hat',
+    title: 'Pip die kleine Ente',
     theme: 'animals',
     language: 'de',
-    content: `Es war einmal, an einem Teich am Rand einer sonnigen Wiese, eine kleine gelbe Ente namens Pip. Pip liebte es zu quaken – er quakte Schmetterlinge an, quakte Frösche an und quakte sein eigenes Spiegelbild im Wasser an.
+    content: `Pip war eine kleine gelbe Ente.
+Er wohnte an einem großen, glänzenden Teich.
 
-Eines Morgens wachte Pip auf und versuchte zu quaken. Aber es kam nichts heraus! Er öffnete seinen Schnabel weit und versuchte es erneut. Immer noch nichts. Sein Quak war verschwunden!
+Jeden Tag sagte Pip: „Quak! Quak! Quak!"
+Er quakte die Frösche an. Er quakte die Fische an.
+Er quakte sogar sein eigenes Gesicht im Wasser an!
 
-Pip watschelte zu Frau Hase. „Hast du mein Quak gesehen?", fragte er mit einem winzigen Flüstern.
+Eines Morgens wachte Pip auf und versuchte zu quaken.
+Aber nichts kam heraus!
 
-Frau Hase zuckte mit der Nase. „Ich habe es nicht gesehen, aber hast du bei den Seerosen nachgeschaut?"
+„Oh nein!" sagte Pip. „Wo ist mein Quak?"
 
-Pip hüpfte zu den Seerosen. Ein freundlicher Frosch saß dort und blinzelte langsam. „Suchst du etwas?", fragte der Frosch.
+Er ging zu seinem Freund Frosch.
+„Frosch! Ich habe mein Quak verloren!" sagte Pip.
 
-„Mein Quak!", sagte Pip traurig.
+Frosch lächelte ein großes Lächeln.
+„Vielleicht musst du einfach zuerst lachen," sagte Frosch.
 
-Der Frosch lächelte. „Manchmal verstecken sich unsere Stimmen, wenn wir uns einsam fühlen. Hast du heute gelacht?"
+Frosch schnitt das albernste Gesicht, das Pip je gesehen hatte.
 
-Pip dachte nach. Nein, hatte er nicht. Also erzählte der Frosch den albernsten Witz über einen schlammigen Stiefel, und Pip lachte so laut, dass – QUAK! – seine Stimme laut und stolz herauskam!
+Pip lachte und lachte und lachte.
+Und dann — QUAK! — kam seine Stimme heraus!
 
-„Mein Quak ist zurück!", jubelte Pip.
+„Mein Quak ist zurück!" jubelte Pip.
 
-Von da an sorgte Pip dafür, jeden Morgen mit seinen Freunden zu lachen. Und sein Quak war immer das lauteste am Teich.
+Frosch und Pip platschten und spielten den ganzen Tag.
 
 Ende. Schlaf gut, kleines.`,
   },
   {
-    title: 'Der Bär, der sich vor der Dunkelheit fürchtete',
+    title: 'Bruno und die Sterne',
     theme: 'animals',
     language: 'de',
-    content: `Bruno war ein kleiner brauner Bär, der in einer gemütlichen Höhle zwischen zwei Eichenbäumen lebte. Bruno liebte den Tag – Schmetterlinge jagen, Beeren essen und im Bach planschen. Aber wenn die Sonne unterging, zog Bruno seine Decke über die Nase und kniff die Augen fest zu.
+    content: `Bruno war ein kleiner brauner Bär.
+Er liebte sonnige Tage.
+Er liebte es, Beeren zu essen.
+Er liebte es, im Bach zu planschen.
 
-Eines Abends flog sein Freund Eule zu seiner Höhle. „Warum kommst du nicht mit, die Sterne zu beobachten?", fragte Eule.
+Aber nachts hatte Bruno Angst.
+Er zog seine Decke über die Nase.
+Er schloss die Augen ganz fest.
 
-„Die Dunkelheit ist zu groß", sagte Bruno.
+Eines Abends kam sein Freund Eule vorbei.
+„Bruno! Komm und schau dir die Sterne an!" rief Eule.
 
-Eule blinzelte mit ihren großen goldenen Augen. „Die Dunkelheit ist nicht groß", sagte sie sanft. „Die Dunkelheit ist nur die Welt, die Gute Nacht sagt. Schließe die Augen und höre zu."
+„Die Dunkelheit ist zu groß," sagte Bruno.
 
-Bruno spähte heraus. Er hörte Grillen singen, den Bach leise gluckern und eine Brise, die durch die Blätter flüsterte.
+„Komm und hör zu," sagte Eule sanft.
 
-„Das klingt schön", sagte Bruno.
+Bruno spähte heraus.
+Er hörte Grillen singen.
+Er hörte den Bach plätschern.
+Er hörte den Wind in den Blättern.
 
-„Die Dunkelheit hält all diese Geräusche sicher", sagte Eule. „Und schau – der Mond ist dein Nachtlicht."
+„Das klingt so schön," sagte Bruno.
 
-Bruno schaute hoch. Der große, runde Mond lächelte ihn an, silbrig und ruhig.
+„Und schau hoch," sagte Eule.
 
-Bruno trat hinaus. Die Sterne blinzelten wie kleine Freunde über ihm.
+Bruno schaute hoch.
+Der große runde Mond leuchtete.
+Viele kleine Sterne funkelten.
+Sie sahen aus wie winzige Freunde!
 
-„Ich hatte umsonst Angst", flüsterte er.
+„Hallo, Sterne!" sagte Bruno.
 
-„Mutig sein bedeutet nur, es zu versuchen", sagte Eule.
+Er saß mit Eule und beobachtete den Himmel.
+Bald wurden seine Augen sehr schwer.
 
-Bruno saß mit Eule und beobachtete die Sterne, bis seine Augen sehr, sehr schwer wurden. Er trottete zurück in seine Höhle, kuschelte sich ein und schlief den friedlichsten Schlaf, den er je geschlafen hatte.
+Er ging zurück in seine gemütliche Höhle und schlief tief und fest.
 
 Gute Nacht, Bruno. Gute Nacht, kleines.`,
   },
   {
-    title: 'Das Kaninchen, das einen Regenbogen fand',
+    title: 'Rosa entdeckt einen Regenbogen',
     theme: 'animals',
     language: 'de',
-    content: `Rosa Kaninchen hatte noch nie einen Regenbogen gesehen. Sie hatte davon von den älteren Kaninchen gehört, die sagten, er bestehe aus allen besten Farben der Welt.
+    content: `Rosa war ein kleines Kaninchen mit großen Schlappohren.
+Sie hatte noch nie einen Regenbogen gesehen.
 
-An einem regnerischen Morgen schaute Rosa aus ihrem Bau auf den grauen Himmel. „Heute ist kein Regenbogentag", seufzte sie.
+Eines Morgens regnete es.
+Rosa schaute hinaus. Alles war grau.
+„Heute kein Regenbogen," sagte sie traurig.
 
-Aber dann hörte der Regen auf, und ein Strahl Sonnenlicht brach durch die Wolken. Rosas Nase zuckte. Sie sprang hinaus.
+Dann hörte der Regen auf.
+Die Sonne kam heraus!
+Rosas Nase wackelte, wackelte, wackelte.
 
-Da, von dem großen Apfelbaum bis zum Hügel hinter der Wiese, war der schönste Farbbogen, den sie je gesehen hatte. Rot, Orange, Gelb, Grün, Blau und Violett, alles ineinanderfließend wie ein Gemälde.
+Sie hüpfte hinaus.
 
-„Oh!", sagte Rosa und saß sehr still, damit sie ihn nicht verscheuchte.
+Da war er!
+Ein Regenbogen! Groß und wunderschön!
+Rot! Orange! Gelb! Grün! Blau! Lila!
 
-Ihr Freund Eichhörnchen lief herbei. „Was schaust du an?"
+„Oh!" sagte Rosa. Sie saß ganz still.
 
-„Den Regenbogen", flüsterte Rosa.
+Ihr Freund Eichhörnchen kam gerannt.
+Dann kam Igel.
+Dann kamen auch zwei kleine Mäuse.
 
-Eichhörnchen setzte sich neben sie. Dann kam Igel. Dann die beiden kleinen Feldmäuse. Sie alle saßen zusammen im nassen Gras und schauten die Farben an.
+Sie saßen alle zusammen im nassen Gras.
+Sie schauten und schauten den Regenbogen an.
 
-Niemand sagte lange etwas. Sie schauten einfach zusammen.
+„Regenbögen sind noch schöner mit Freunden," sagte Rosa.
 
-Als der Regenbogen langsam verblasste, seufzte Rosa glücklich. „Ich glaube, Regenbögen sind besser, wenn man sie teilt", sagte sie.
+Alle stimmten zu.
 
-Alle ihre Freunde stimmten zu.
-
-An diesem Abend zeichnete Rosa mit einem Stock einen Regenbogen in die Erde, damit sie sich erinnern konnte. Und sie zeichnete alle ihre Freunde drum herum.
+An diesem Abend malte Rosa mit einem Stock einen Regenbogen in die Erde.
+Sie malte alle ihre Freunde drum herum.
 
 Ende.`,
   },
   {
-    title: 'Der schläfrige Elefant',
+    title: 'Ellie liebt ihren Mittagsschlaf',
     theme: 'animals',
     language: 'de',
-    content: `Ellie die Elefantin liebte viele Dinge: im Fluss planschen, Wassermelonen essen und – vor allem – ihren Mittagsschlaf.
+    content: `Ellie war eine große, fröhliche Elefantin.
+Sie liebte es, im Fluss zu planschen.
+Sie liebte es, Wassermelonen zu essen.
+Aber am meisten liebte sie ihren Mittagsschlaf!
 
-Jeden Tag nach dem Mittagessen fand Ellie den größten, schattigsten Baum in der Savanne und schloss ihre riesigen Augen.
+Jeden Tag nach dem Mittagessen suchte Ellie den schattigsten Baum.
+Sie schloss ihre riesigen Augen.
+Sie machte einen langen, herrlichen Mittagsschlaf.
 
-Eines Tages kamen ihre Freunde Zebra und Giraffe herangelaufen, keuchend. „Ellie! Ellie! Komm spielen! Wir haben einen riesigen Ameisenhügel gefunden!"
+Eines Tages kamen Zebra und Giraffe gerannt.
+„Ellie! Ellie! Komm spielen!"
 
-Ellie gähnte ein Gähnen, das so weit war, dass sie eine kleine Wolke hätte verschlucken können. „Nach meinem Schlaf", sagte sie.
+Ellie gähnte ein riesiges Gähnen.
+„Nach meinem Schlaf," sagte sie.
 
-„Aber die Ameisen könnten bis dann weg sein!", sagte Zebra.
+„Aber wir wollen JETZT spielen!" sagte Zebra.
 
-„Die Ameisen werden noch da sein", sagte Ellie friedlich. „Ameisen sind sehr fleißig."
-
+„Ich bin nach meinem Schlaf bereit," sagte Ellie.
 Sie zog ein großes Blatt über sich und schlief ein.
 
-Als sie aufwachte, war die Welt golden im späten Nachmittagslicht. Sie streckte alle vier Beine, wackelte mit dem Rüssel und trompetete fröhlich.
+Als sie aufwachte, streckte sie alle vier Beine.
+Sie wackelte mit dem Rüssel.
+Sie machte ein fröhliches TUUT!
 
-Sie fand Zebra und Giraffe beim Ameisenhügel, der tatsächlich noch da war, so geschäftig wie immer.
+„Ich bin bereit!" sagte sie.
+Zebra und Giraffe warteten noch immer.
 
-„Du hattest recht", sagte Zebra. „Die Ameisen sind geblieben."
+Sie spielten und spielten, bis der Himmel rosa wurde.
 
-„Schlaf ist wichtig", sagte Ellie weise. „Jetzt habe ich Energie, so lange Ameisen zu beobachten, wie ihr möchtet."
-
-Und so taten sie es, bis die Glühwürmchen herauskamen und der Himmel rosa wurde.
-
-Ruh dich gut aus, kleiner Elefant. Ruh dich gut aus.`,
+Schlafen ist sehr wichtig. Schlaf gut, kleines.`,
   },
   {
-    title: 'Die Schildkröte, die fliegen wollte',
+    title: 'Tommy und der Wind',
     theme: 'animals',
     language: 'de',
-    content: `Tommy die Schildkröte beobachtete jeden Morgen die Vögel. Sie schwebten, segelten und schlugen Schleifen durch die Wolken, und Tommy wünschte sich mit ganzem Herzen, dasselbe tun zu können.
+    content: `Tommy war eine kleine Schildkröte.
+Jeden Morgen beobachtete er die Vögel fliegen.
+Hoch, hoch, hoch flogen sie!
 
-„Ich möchte fliegen", sagte Tommy eines Tages zu seinem Freund Spatz.
+„Ich möchte auch fliegen," sagte Tommy.
 
-Spatz neigte den Kopf. „Aber du bist eine Schildkröte."
+Seine Freundin Spatz neigte ihr kleines Köpfchen.
+„Aber Tommy, du bist eine Schildkröte."
 
-„Ich weiß", sagte Tommy. „Aber ich möchte es trotzdem."
+„Ich weiß," sagte Tommy. „Aber ich möchte es trotzdem."
 
-Spatz dachte einen Moment nach. „Ich kann dich nicht fliegen lassen", sagte er. „Aber ich kann dir den Himmel auf eine andere Weise zeigen."
+Spatz dachte kurz nach.
+„Ich habe eine Idee," sagte sie.
 
-Er führte Tommy auf einen hohen Hügel. Oben konnten sie alles sehen – den Fluss wie ein silbernes Band, den Wald wie einen grünen Teppich, und die Wolken, die langsam darüber segelten.
+Sie führte Tommy auf einen großen, hohen Hügel.
+Tommy lief langsam. Ganz langsam. Sehr langsam.
 
-Tommy stand sehr still. Der Wind zerzauste seinen Hals und drückte gegen seinen Panzer.
+Oben konnte Tommy alles sehen!
+Der Fluss glitzerte wie Silber.
+Der Wald war leuchtend grün.
+Die Wolken segelten langsam vorbei.
 
-„Ich fliege nicht", sagte er langsam, „aber ich kann den Wind genauso spüren wie du."
+Dann kam der Wind.
+Er zerzauste Tommys Hals. Er drückte gegen seinen Panzer.
 
-„Ja", sagte Spatz und landete auf seinem Panzer. „Der Wind fragt nicht, wer du bist."
+Tommy schloss die Augen.
+Er spürte den Wind in seinem Gesicht.
 
-Tommy lächelte sein langsames Schildkrötenlächeln. Er blieb auf dem Hügel, bis die Sonne unterging, spürte die Brise und beobachtete, wie die Wolken ihre Form änderten.
+„Ich kann den Himmel spüren," sagte Tommy leise.
 
-Er konnte nicht fliegen. Aber er konnte den Himmel spüren. Und das, entschied er, war ziemlich wunderbar.
+„Ja," sagte Spatz. „Der Wind ist für alle da."
 
-Träume groß heute Nacht, kleines. Selbst Schildkröten können den Himmel berühren.`,
+Tommy lächelte sein langsames, langsames Lächeln.
+Er blieb auf dem Hügel bis die Sonne unterging.
+
+Träume groß, kleines. Selbst Schildkröten können den Himmel berühren.`,
+  },
+  {
+    title: 'Leo der kleine Löwe',
+    theme: 'animals',
+    language: 'de',
+    content: `Leo war ein kleines Löwenjunges.
+Alle großen Löwen hatten ein lautes, mächtiges BRÜLLEN.
+Aber Leos Brüllen war ganz, ganz winzig.
+
+„BRÜLL," sagte Leo.
+
+„War das ein Brüllen?" fragte seine große Schwester.
+„Oder war das ein Niesen?"
+
+Leo wurde traurig.
+Er ging und setzte sich unter einen Baum.
+
+Mama kam und setzte sich neben ihn.
+„Was ist los, mein Leo?" fragte sie.
+
+„Mein Brüllen ist zu klein," sagte Leo.
+
+Mama lächelte.
+„Jedes große Brüllen fängt klein an," sagte sie.
+„Sogar meines war einmal klein."
+
+„Wirklich?" sagte Leo.
+
+„Wirklich," sagte Mama.
+
+Sie gab Leo eine große, warme Umarmung.
+
+Leo holte tief Luft.
+Er öffnete den Mund weit.
+
+„BRÜLL!" sagte er.
+Es war immer noch klein. Aber es war SEIN Brüllen.
+Und das machte es perfekt.
+
+Mama klatschte ihre großen Pfoten zusammen.
+„Ein wunderbares Brüllen!" sagte sie.
+
+Leo lächelte das größte Lächeln.
+
+Ende.`,
+  },
+  {
+    title: 'Mimi der Schmetterling',
+    theme: 'animals',
+    language: 'de',
+    content: `Mimi war eine Raupe.
+Sie war klein und grün und sehr, sehr langsam.
+
+Überall um sie herum flogen Schmetterlinge.
+Sie waren gelb und blau und orange.
+Sie flogen hoch hinauf in den Himmel.
+
+„Ich wünschte, ich könnte fliegen," sagte Mimi.
+
+Sie nagte an einem Blatt. Knabber knabber knabber.
+Sie fühlte sich sehr schläfrig.
+
+So hüllte Mimi sich in eine gemütliche Hülle ein.
+Drinnen war es warm. Drinnen war es sicher.
+Sie schlief und schlief.
+
+Dann eines Tages spürte sie etwas anderes.
+Sie wackelte. Sie zappelte. Sie drückte!
+
+Puff! Heraus kam Mimi.
+
+Aber Mimi war keine Raupe mehr.
+Sie hatte wunderschöne Flügel!
+Orangefarbene Flügel mit kleinen schwarzen Punkten!
+
+Mimi schlug einmal mit den Flügeln. Zweimal.
+Und dann flog sie!
+
+HOCH in den sonnigen Himmel!
+Sie flog über Blumen. Sie flog über den Teich.
+
+„Ich kann fliegen!" sagte Mimi glücklich.
+
+Manchmal muss man nur warten und sich ausruhen.
+Gute Dinge kommen, kleines.`,
+  },
+  {
+    title: 'Benny Hase hüpft',
+    theme: 'animals',
+    language: 'de',
+    content: `Benny war ein kleines Hasenbaby.
+Er hatte lange, weiche Ohren.
+Er hatte ein flauschiges Schwänzchen.
+Und er hatte vier sehr federnde Beine.
+
+Alle anderen Hasen konnten hüpfen.
+Hüpf! Hüpf! Hüpf!
+Über Pfützen. Über Stöcke. Über Blumen.
+
+Aber Benny hatte noch nie gehüpft.
+Er hatte ein bisschen Angst.
+
+„Was wenn ich falle?" sagte Benny.
+
+Mama kam nah heran.
+„Ich bin genau hier," sagte sie. „Ich fange dich auf."
+
+Benny holte tief Luft.
+Er beugte seine Beine. Er wackelte mit dem Schwanz.
+Er sprang!
+
+HÜPF!
+
+Benny landete im weichen grünen Gras!
+
+„Ich habe gehüpft!" rief er. „Ich habe wirklich gehüpft!"
+
+„Ja!" sagte Mama. Sie war so stolz.
+
+Benny hüpfte nochmal. Und nochmal. Und nochmal!
+Er hüpfte über eine Pfütze!
+Er hüpfte über einen kleinen Stock!
+Er hüpfte den ganzen Weg nach Hause!
+
+Du schaffst das auch, kleines.
+Hol einfach tief Luft und versuche es.`,
   },
 ]
