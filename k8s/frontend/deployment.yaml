@@ -48,5 +48,7 @@ spec:
               memory: 64Mi
           securityContext:
             allowPrivilegeEscalation: false
+            # nginx standard image requires root to bind port 80; use nginxinc/nginx-unprivileged
+            # on port 8080 to enable runAsNonRoot: true in a hardened environment.
             runAsNonRoot: false
             readOnlyRootFilesystem: false

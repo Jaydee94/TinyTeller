@@ -10,7 +10,8 @@ services:
     environment:
       PORT: "8080"
       NODE_ENV: production
-      CORS_ORIGIN: "http://localhost:3000"
+      # Override CORS_ORIGIN to match your frontend URL when deploying outside localhost
+      CORS_ORIGIN: "${CORS_ORIGIN:-http://localhost:3000}"
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:8080/api/health"]
