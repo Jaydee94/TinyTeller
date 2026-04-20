@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [main]
 
+env:
+  REGISTRY: ghcr.io
+  BACKEND_IMAGE: ghcr.io/${{ github.repository_owner }}/tiny-teller-backend
+  FRONTEND_IMAGE: ghcr.io/${{ github.repository_owner }}/tiny-teller-frontend
+
 jobs:
   backend:
     name: Backend — lint / test / build
@@ -73,28 +78,57 @@ jobs:
     needs: [backend, frontend]
     permissions:
       contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
+      - name: Log in to GitHub Container Registry
+        if: github.event_name == 'push'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract Docker metadata (backend)
+        id: meta-backend
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.BACKEND_IMAGE }}
+          tags: |
+            type=edge,branch=main
+            type=sha
+
       - name: Build backend image
         uses: docker/build-push-action@v6
         with:
           context: ./backend
           file: ./backend/Dockerfile
-          push: false
-          tags: tiny-teller-backend:ci
+          push: ${{ github.event_name == 'push' }}
+          tags: ${{ github.event_name == 'push' && steps.meta-backend.outputs.tags || 'tiny-teller-backend:ci' }}
+          labels: ${{ steps.meta-backend.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Extract Docker metadata (frontend)
+        id: meta-frontend
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.FRONTEND_IMAGE }}
+          tags: |
+            type=edge,branch=main
+            type=sha
 
       - name: Build frontend image
         uses: docker/build-push-action@v6
         with:
           context: ./frontend
           file: ./frontend/Dockerfile
-          push: false
-          tags: tiny-teller-frontend:ci
+          push: ${{ github.event_name == 'push' }}
+          tags: ${{ github.event_name == 'push' && steps.meta-frontend.outputs.tags || 'tiny-teller-frontend:ci' }}
+          labels: ${{ steps.meta-frontend.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
