@@ -1,12 +1,26 @@
-# ✨ TinyTeller
+<p align="center">
+  <img src="assets/banner.svg" alt="TinyTeller — Instant magic stories for little listeners" width="800"/>
+</p>
 
-> Instant magic stories for little listeners.
+<p align="center">
+  <a href="https://github.com/Jaydee94/TinyTeller/actions/workflows/ci.yml">
+    <img alt="CI" src="https://github.com/Jaydee94/TinyTeller/actions/workflows/ci.yml/badge.svg"/>
+  </a>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-20-339933?logo=node.js&logoColor=white"/>
+  <img alt="React" src="https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white"/>
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white"/>
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-ready-2496ed?logo=docker&logoColor=white"/>
+</p>
 
-TinyTeller is a minimalist web application that brings bedtime magic to toddlers and parents with a single tap. Press the **Magic Button** and receive a brand-new, bite-sized story crafted for 2–4 year olds — no accounts, no ads, no complexity.
+<p align="center">
+  TinyTeller brings bedtime magic to toddlers and parents with a single tap.<br/>
+  Press the <strong>Magic Button</strong> and receive a brand-new, bite-sized story crafted for 2–4 year olds<br/>
+  — no accounts, no ads, no complexity.
+</p>
 
 ---
 
-## Features
+## ✨ Features
 
 - **One-tap magic** — a single button delivers a fresh short story instantly
 - **Toddler-first design** — large buttons, high-contrast palette, big readable text
@@ -16,7 +30,7 @@ TinyTeller is a minimalist web application that brings bedtime magic to toddlers
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 ┌──────────────┐    /api/*     ┌───────────────┐
@@ -35,7 +49,7 @@ TinyTeller is a minimalist web application that brings bedtime magic to toddlers
 
 ---
 
-## Quick Start — Docker Compose
+## 🐳 Quick Start — Docker Compose
 
 Requires: [Docker](https://docs.docker.com/get-docker/) with Compose V2.
 
@@ -52,7 +66,7 @@ docker compose up --build
 
 ---
 
-## Quick Start — Local Development
+## 💻 Quick Start — Local Development
 
 Requires: Node.js 20+
 
@@ -70,7 +84,7 @@ npm run dev        # starts on :5173, proxies /api → :8080
 
 ---
 
-## Kubernetes
+## ☸️ Kubernetes
 
 Manifests live in `k8s/`. Apply with [Kustomize](https://kustomize.io/):
 
@@ -97,7 +111,7 @@ kubectl apply -k k8s/
 
 ---
 
-## API Reference
+## 📡 API Reference
 
 ### `GET /api/health`
 ```json
@@ -128,7 +142,7 @@ Returns a previously generated story (cached in memory for 1 hour).
 
 ---
 
-## Tests
+## 🧪 Tests
 
 ```bash
 # Backend
@@ -140,7 +154,7 @@ cd frontend && npm test
 
 ---
 
-## CI/CD
+## 🔄 CI/CD
 
 | Workflow | Trigger | Actions |
 |---------|---------|---------|
@@ -153,7 +167,7 @@ Images are published to:
 
 ---
 
-## Future Roadmap
+## 🗺️ Future Roadmap
 
 - Story history with user accounts (Postgres + JWT auth)
 - AI story generation (LLM integration with template fallback)

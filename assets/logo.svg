@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#0d1033"/>
+      <stop offset="100%" stop-color="#1a1f5c"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#f9a03f" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f9a03f" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="crescent">
+      <circle cx="150" cy="95" r="52" fill="white"/>
+      <circle cx="176"  cy="80" r="43" fill="black"/>
+    </mask>
+    <linearGradient id="pageL" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#fff7e6"/>
+      <stop offset="100%" stop-color="#fde8c0"/>
+    </linearGradient>
+    <linearGradient id="pageR" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#fde8c0"/>
+      <stop offset="100%" stop-color="#fff7e6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="300" height="300" rx="32" fill="url(#sky)"/>
+
+  <!-- Moon glow -->
+  <circle cx="150" cy="95" r="80" fill="url(#moonGlow)"/>
+
+  <!-- Crescent moon -->
+  <circle cx="150" cy="95" r="52" fill="#f9a03f" mask="url(#crescent)"/>
+
+  <!-- Moon surface details -->
+  <circle cx="130" cy="90"  r="4.5" fill="#e08826" opacity="0.38"/>
+  <circle cx="140" cy="110" r="3"   fill="#e08826" opacity="0.32"/>
+
+  <!-- 4-pointed sparkle stars -->
+  <path d="M55,52  L56.4,57   L61.5,58.5 L56.4,60   L55,65  L53.6,60   L48.5,58.5 L53.6,57Z"   fill="white"   opacity="0.85"/>
+  <path d="M245,48 L246.4,53  L251.5,54.5 L246.4,56  L245,61 L243.6,56  L238.5,54.5 L243.6,53Z"  fill="#f9a03f" opacity="0.80"/>
+  <path d="M50,175 L51.2,179.5 L55.8,181  L51.2,182.5 L50,187 L48.8,182.5 L44.2,181  L48.8,179.5Z" fill="#c4b5fd" opacity="0.70"/>
+  <path d="M250,185 L251.2,189.5 L255.8,191 L251.2,192.5 L250,197 L248.8,192.5 L244.2,191 L248.8,189.5Z" fill="white" opacity="0.75"/>
+
+  <!-- Dot stars -->
+  <circle cx="38"  cy="120" r="2"   fill="white"   opacity="0.60"/>
+  <circle cx="263" cy="125" r="2"   fill="white"   opacity="0.55"/>
+  <circle cx="42"  cy="88"  r="1.5" fill="#f9a03f" opacity="0.55"/>
+  <circle cx="258" cy="90"  r="1.5" fill="white"   opacity="0.50"/>
+  <circle cx="35"  cy="148" r="1.5" fill="white"   opacity="0.50"/>
+  <circle cx="265" cy="155" r="1.5" fill="#f9a03f" opacity="0.50"/>
+  <circle cx="100" cy="35"  r="1.5" fill="white"   opacity="0.55"/>
+  <circle cx="200" cy="30"  r="1.5" fill="white"   opacity="0.50"/>
+  <circle cx="75"  cy="22"  r="2"   fill="#f9a03f" opacity="0.50"/>
+  <circle cx="225" cy="22"  r="2"   fill="white"   opacity="0.55"/>
+
+  <!-- ── Open Book ── -->
+  <!-- Book shadow -->
+  <ellipse cx="150" cy="228" rx="70" ry="8" fill="#000" opacity="0.18"/>
+
+  <!-- Left cover -->
+  <rect x="80"  y="160" width="72" height="62" rx="5" fill="#e08826"/>
+  <!-- Right cover -->
+  <rect x="152" y="160" width="72" height="62" rx="5" fill="#c8760e"/>
+  <!-- Spine -->
+  <rect x="148" y="160" width="8"  height="62" fill="#9a5800"/>
+
+  <!-- Left page -->
+  <rect x="83"  y="165" width="64" height="52" rx="3" fill="url(#pageL)"/>
+  <!-- Right page -->
+  <rect x="157" y="165" width="64" height="52" rx="3" fill="url(#pageR)"/>
+
+  <!-- Left page lines -->
+  <line x1="91"  y1="177" x2="145" y2="177" stroke="#c8920a" stroke-width="1.5" opacity="0.50"/>
+  <line x1="91"  y1="186" x2="145" y2="186" stroke="#c8920a" stroke-width="1.5" opacity="0.45"/>
+  <line x1="91"  y1="195" x2="145" y2="195" stroke="#c8920a" stroke-width="1.5" opacity="0.40"/>
+  <line x1="91"  y1="204" x2="135" y2="204" stroke="#c8920a" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Right page lines -->
+  <line x1="164" y1="177" x2="218" y2="177" stroke="#b88000" stroke-width="1.5" opacity="0.50"/>
+  <line x1="164" y1="186" x2="218" y2="186" stroke="#b88000" stroke-width="1.5" opacity="0.45"/>
+  <line x1="164" y1="195" x2="218" y2="195" stroke="#b88000" stroke-width="1.5" opacity="0.40"/>
+  <line x1="164" y1="204" x2="210" y2="204" stroke="#b88000" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Gold star on right page -->
+  <path d="M188,170 L189.2,174.5 L193.8,176 L189.2,177.5 L188,182 L186.8,177.5 L182.2,176 L186.8,174.5Z" fill="#f9a03f" opacity="0.90"/>
+
+  <!-- ── Text ── -->
+  <text
+    x="150" y="256"
+    text-anchor="middle"
+    font-family="Georgia, 'Palatino Linotype', serif"
+    font-size="26"
+    font-weight="bold"
+    fill="white"
+    letter-spacing="1">TinyTeller</text>
+
+  <text
+    x="150" y="278"
+    text-anchor="middle"
+    font-family="Georgia, 'Palatino Linotype', serif"
+    font-size="12"
+    fill="#f9a03f"
+    letter-spacing="0.5">&#10024; magic stories &#10024;</text>
+</svg>
