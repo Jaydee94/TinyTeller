@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="TinyTeller — Instant magic stories for little listeners" width="800"/>
+  <img src="assets/banner.svg" alt="TinyTeller — Dreamy stories for little dreamers" width="800"/>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 <p align="center">
   TinyTeller brings bedtime magic to toddlers and parents with a single tap.<br/>
   Press the <strong>Magic Button</strong> and receive a brand-new, bite-sized story crafted for 2–4 year olds<br/>
-  — no accounts, no ads, no complexity.
+  — wrapped in a soothing <strong>Dreamy Nightsky</strong> atmosphere, with no accounts, no ads, no complexity.
 </p>
 
 ---
@@ -44,7 +44,7 @@
 ## ✨ Features
 
 - **One-tap magic** — a single button delivers a fresh short story instantly
-- **Toddler-first design** — large buttons, high-contrast palette, big readable text
+- **Toddler-first design** — large buttons, deep-purple Dreamy Nightsky palette, big readable text
 - **Four themes** — Animals 🐾, Friendship 💛, Bedtime 🌙, Adventure 🗺️
 - **Fully offline-capable** — template-based generation, no external API calls
 - **Self-hostable** — runs as a container or on Kubernetes
