@@ -3,10 +3,13 @@ import { useNavigate } from 'react-router-dom'
 import MagicButton from '../components/MagicButton'
 import styles from './HomePage.module.css'
 
+type Language = 'en' | 'de'
+
 export default function HomePage() {
   const navigate = useNavigate()
   const [isLoading, setLoading] = useState(false)
   const [isError, setError] = useState(false)
+  const [language, setLanguage] = useState<Language>('en')
 
   const handleGenerate = async () => {
     setError(false)
@@ -15,7 +18,7 @@ export default function HomePage() {
       const resp = await fetch('/api/stories/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({}),
+        body: JSON.stringify({ language }),
       })
 
       if (!resp.ok) throw new Error('Generate failed')
@@ -42,6 +45,23 @@ export default function HomePage() {
             for little listeners
           </p>
         </header>
+
+        <div className={styles.languageToggle} role="group" aria-label="Story language">
+          <button
+            className={`${styles.langButton} ${language === 'en' ? styles.langActive : ''}`}
+            onClick={() => setLanguage('en')}
+            aria-pressed={language === 'en'}
+          >
+            🇬🇧 EN
+          </button>
+          <button
+            className={`${styles.langButton} ${language === 'de' ? styles.langActive : ''}`}
+            onClick={() => setLanguage('de')}
+            aria-pressed={language === 'de'}
+          >
+            🇩🇪 DE
+          </button>
+        </div>
 
         <div className={styles.buttonWrap}>
           <MagicButton onClick={handleGenerate} isLoading={isLoading} isError={isError} />

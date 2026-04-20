@@ -4,6 +4,7 @@ export const bedtimeStories: StoryTemplate[] = [
   {
     title: "The Moon's Lullaby",
     theme: 'bedtime',
+    language: 'en',
     content: `Every night, the Moon looked down at all the sleeping animals and sang a very quiet song. It was so quiet that only the stars could hear it. But the animals could feel it — a warm, sleepy feeling that started in their toes and crept all the way up to their eyelids.
 
 Little Wren was the last one awake. She sat on her branch, watching the other birds tuck their heads under their wings.
@@ -31,6 +32,7 @@ The Moon watches over you too, little one. Everything wonderful will wait. Sleep
   {
     title: "The Counting Sheep Who Couldn't Sleep",
     theme: 'bedtime',
+    language: 'en',
     content: `Every night, all the little animals counted sheep to fall asleep. The sheep lined up and jumped over the fence, one by one, and the watching eyes grew heavy.
 
 But one night, the last sheep — a small, woolly one named Beau — realized something.
@@ -60,6 +62,7 @@ Breathe deep now. One... two... three...`,
   {
     title: 'The Night Garden',
     theme: 'bedtime',
+    language: 'en',
     content: `Rosa didn't know that flowers had a special secret. During the day, they stood tall and bright, nodding at bees and butterflies. But at night, they gathered together and whispered.
 
 One night, Rosa stayed up very late and peeked outside. In the moonlight, she saw the sunflowers leaning toward the roses, and the roses leaning toward the lavender, and all of them murmuring softly.
@@ -83,6 +86,7 @@ What good things happened to you today, little one? Think of them now. Let them 
   {
     title: "Papa Bear's Bedtime Walk",
     theme: 'bedtime',
+    language: 'en',
     content: `Every night, before sleep, Papa Bear took little Cub on a walking-without-walking adventure.
 
 "Close your eyes," Papa Bear said. Cub snuggled deep under the warm quilt.
@@ -112,6 +116,7 @@ He tucked the quilt around small shoulders. And the stars kept shining, steady a
   {
     title: 'The Star That Waited',
     theme: 'bedtime',
+    language: 'en',
     content: `High in the sky, in the very middle of the night, one small star had an important job. She was the wish star — the brightest one. Every night she waited for children to make their wishes.
 
 But tonight, it was very late and no one had looked up yet.

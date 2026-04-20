@@ -13,6 +13,7 @@
   align-items: center;
   gap: var(--space-md);
   margin-bottom: var(--space-xl);
+  flex-wrap: wrap;
 }
 
 .emoji {
@@ -26,6 +27,18 @@
   font-weight: 700;
   color: var(--color-text);
   line-height: 1.25;
+  flex: 1;
+}
+
+.languageBadge {
+  font-size: var(--font-size-sm, 0.85rem);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+  padding: 2px var(--space-sm);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .content {

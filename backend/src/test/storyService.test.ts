@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { generateStory, getStory, storeSize } from '../services/storyService'
-import { Theme } from '../types'
+import { Language, Theme } from '../types'
 
 describe('storyService', () => {
   describe('generateStory', () => {
@@ -10,6 +10,7 @@ describe('storyService', () => {
       expect(story.title).toBeTruthy()
       expect(story.content).toBeTruthy()
       expect(['animals', 'friendship', 'bedtime', 'adventure']).toContain(story.theme)
+      expect(['en', 'de']).toContain(story.language)
       expect(story.createdAt).toBeTruthy()
       expect(new Date(story.createdAt).toISOString()).toBe(story.createdAt)
     })
@@ -22,6 +23,19 @@ describe('storyService', () => {
       }
     })
 
+    it('defaults to english when no language is provided', () => {
+      const story = generateStory()
+      expect(story.language).toBe('en')
+    })
+
+    it('returns a story in the requested language', () => {
+      const languages: Language[] = ['en', 'de']
+      for (const language of languages) {
+        const story = generateStory(undefined, language)
+        expect(story.language).toBe(language)
+      }
+    })
+
     it('generates unique IDs for each story', () => {
       const ids = new Set(Array.from({ length: 20 }, () => generateStory().id))
       expect(ids.size).toBe(20)
@@ -30,6 +44,15 @@ describe('storyService', () => {
     it('story content is 200+ characters', () => {
       const story = generateStory()
       expect(story.content.length).toBeGreaterThan(200)
+    })
+
+    it('german stories have 200+ characters of content', () => {
+      const themes: Theme[] = ['animals', 'friendship', 'bedtime', 'adventure']
+      for (const theme of themes) {
+        const story = generateStory(theme, 'de')
+        expect(story.content.length).toBeGreaterThan(200)
+        expect(story.language).toBe('de')
+      }
     })
   })
 

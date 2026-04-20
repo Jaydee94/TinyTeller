@@ -4,6 +4,7 @@ export const adventureStories: StoryTemplate[] = [
   {
     title: 'The Map to Somewhere',
     theme: 'adventure',
+    language: 'en',
     content: `One morning, Pippa found a map under the floorboard of her treehouse. It was old and crinkled, with a big X drawn in the far corner and the words: "Something wonderful lives here."
 
 Pippa packed her backpack with a cheese sandwich, a water bottle, and her favorite blue pebble for luck. Then she set off.
@@ -25,6 +26,7 @@ What is your special place, little adventurer? Every brave explorer needs one.`,
   {
     title: 'The Smallest Explorer',
     theme: 'adventure',
+    language: 'en',
     content: `Tomas was the smallest in his family — smaller than his sister, smaller than the dog, smaller even than the cat.
 
 "You're too small to go exploring," his sister said.
@@ -56,6 +58,7 @@ The world is full of wonders for the person who looks small. Goodnight, little e
   {
     title: 'The Cloud Ship',
     theme: 'adventure',
+    language: 'en',
     content: `One afternoon, Mara lay on her back in the field and looked at the clouds. There was a sheep cloud. Then a fish cloud. And then — she blinked — a ship cloud, with puffed sails and a long hull, sailing slowly through the blue.
 
 "I could sail on that," Mara thought.
@@ -77,6 +80,7 @@ Close your eyes. Where will you sail tonight?`,
   {
     title: 'The Dragon Who Was Lost',
     theme: 'adventure',
+    language: 'en',
     content: `One misty morning, a small dragon landed in the village square and looked around with very worried eyes. His scales were green as leaves, and his wings were still a little too big for his body.
 
 "Excuse me," he said to the baker. "Could you tell me where I am?"
@@ -108,6 +112,7 @@ It's always okay to ask for help, little one. Always.`,
   {
     title: 'The Secret Under the Bridge',
     theme: 'adventure',
+    language: 'en',
     content: `Everyone walked across the old stone bridge every day. But no one ever looked under it.
 
 Except Remi.

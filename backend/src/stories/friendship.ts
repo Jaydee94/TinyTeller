@@ -4,6 +4,7 @@ export const friendshipStories: StoryTemplate[] = [
   {
     title: 'Two Different Friends',
     theme: 'friendship',
+    language: 'en',
     content: `Milo the mouse was very neat. He liked straight lines, quiet afternoons, and making lists. His new neighbor, Bumble the bear cub, was very messy. She liked tumbling, loud laughing, and doing everything at once.
 
 "They will never be friends," said the older animals.
@@ -31,6 +32,7 @@ The end.`,
   {
     title: 'The Friend Who Listened',
     theme: 'friendship',
+    language: 'en',
     content: `Hazel the hedgehog had a lot of feelings. Some days she felt like sunshine, other days she felt like a very rainy Tuesday.
 
 One morning Hazel woke up feeling like a rainy Tuesday, and she didn't know why.
@@ -60,6 +62,7 @@ Being with someone when they are sad is one of the kindest things you can do. Go
   {
     title: 'The Argument and the Apple Tree',
     theme: 'friendship',
+    language: 'en',
     content: `Sam and Leo had been best friends since before they could remember. They played together every day. But one afternoon, they argued about which apple was the biggest.
 
 "That one," said Sam.
@@ -99,6 +102,7 @@ Even best friends argue sometimes. What matters is coming back.`,
   {
     title: 'A New Friend at the Pond',
     theme: 'friendship',
+    language: 'en',
     content: `Every morning, Felix the frog sat on his lily pad and watched the pond. He knew every ripple, every reed, every fish. He liked it that way.
 
 One morning, a new creature arrived. She was small and orange and had a very bushy tail.
@@ -130,6 +134,7 @@ New friends are one of the best surprises in the world.`,
   {
     title: 'The Gift That Cost Nothing',
     theme: 'friendship',
+    language: 'en',
     content: `It was Nora the mouse's birthday, and all her friends wanted to bring her something special.
 
 Robin brought a bright red feather. Squirrel brought three acorns. Frog brought a smooth, round pebble from the stream.
