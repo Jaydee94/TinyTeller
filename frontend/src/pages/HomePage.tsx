@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import MagicButton from '../components/MagicButton'
+import Logo from '../components/Logo'
 import styles from './HomePage.module.css'
 
 type Language = 'en' | 'de'
@@ -36,9 +37,8 @@ export default function HomePage() {
     <main className={styles.page}>
       <div className={styles.container}>
         <header className={styles.header}>
-          <h1 className={styles.title}>
-            <span aria-hidden="true">✨ </span>TinyTeller
-          </h1>
+          <Logo size={72} className={styles.logoImage} />
+          <h1 className={styles.title}>TinyTeller</h1>
           <p className={styles.tagline}>
             Instant magic stories
             <br />
@@ -74,7 +74,7 @@ export default function HomePage() {
         )}
 
         {!isLoading && !isError && (
-          <p className={styles.hint}>Tap the button for a story</p>
+          <p className={styles.hint}>Tap the button for a story ✨</p>
         )}
       </div>
     </main>

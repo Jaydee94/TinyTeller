@@ -1,14 +1,17 @@
 /* Design tokens */
 :root {
   /* Colors */
-  --color-bg: #fff7e6;
+  --color-bg: #F8F9FA;
   --color-surface: #ffffff;
-  --color-text: #3b2f2f;
-  --color-text-muted: #7a6060;
-  --color-accent: #f9a03f;
-  --color-accent-dark: #e08826;
-  --color-error: #c0392b;
-  --color-error-light: #fde8e6;
+  --color-text: #2D3748;
+  --color-text-muted: #718096;
+  --color-accent: #FF9E4A;
+  --color-accent-dark: #e8832e;
+  --color-sky: #8ECAE6;
+  --color-star: #FFD166;
+  --color-border: #e8edf2;
+  --color-error: #e53e3e;
+  --color-error-light: #fff5f5;
 
   /* Spacing */
   --space-xs: 0.25rem;
@@ -19,7 +22,7 @@
   --space-2xl: 3rem;
 
   /* Typography */
-  --font-base: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-base: 'Nunito', 'Quicksand', system-ui, sans-serif;
   --font-size-sm: 0.875rem;
   --font-size-md: 1.125rem;
   --font-size-lg: 1.375rem;
@@ -28,16 +31,19 @@
   --font-size-story: 1.3rem;
   --line-height-story: 1.85;
 
-  /* Radius */
-  --radius-sm: 0.5rem;
-  --radius-md: 1rem;
-  --radius-lg: 2rem;
+  /* Radius — large components use --radius-lg/xl (≥ 24 px) per design spec;
+     --radius-sm/md are used for small internal chips and badges */
+  --radius-sm: 0.75rem;
+  --radius-md: 1.25rem;
+  --radius-lg: 1.75rem;    /* 28 px */
+  --radius-xl: 2.25rem;    /* 36 px */
   --radius-full: 9999px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
-  --shadow-magic: 0 8px 32px rgba(249, 160, 63, 0.4);
+  --shadow-soft: 0 10px 25px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.08);
+  --shadow-magic: 0 8px 32px rgba(255, 158, 74, 0.38);
 
   /* Transitions */
   --transition-fast: 150ms ease;

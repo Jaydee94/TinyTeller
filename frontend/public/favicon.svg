@@ -1,3 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <text y="26" font-size="28">✨</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Open book left page -->
+  <path d="M8 40 Q8 36 12 35 L30 33 L30 52 L12 54 Q8 54 8 50 Z" fill="#fff" stroke="#8ECAE6" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Open book right page -->
+  <path d="M56 40 Q56 36 52 35 L34 33 L34 52 L52 54 Q56 54 56 50 Z" fill="#fff" stroke="#8ECAE6" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Book spine -->
+  <path d="M30 33 Q32 31 34 33 L34 52 Q32 54 30 52 Z" fill="#FFD166"/>
+  <!-- Bird body -->
+  <ellipse cx="32" cy="26" rx="9" ry="7" fill="#FF9E4A"/>
+  <!-- Bird head -->
+  <circle cx="38" cy="20" r="5.5" fill="#FF9E4A"/>
+  <!-- Wing -->
+  <path d="M23 27 Q18 22 22 18 Q26 24 32 24 Z" fill="#e8832e"/>
+  <!-- Tail -->
+  <path d="M23 29 Q18 32 16 36 Q21 33 25 31 Z" fill="#e8832e"/>
+  <!-- Eye -->
+  <circle cx="40" cy="19" r="1.2" fill="#2D3748"/>
+  <!-- Beak -->
+  <path d="M43 21 L47 20.5 L43 22 Z" fill="#FFD166"/>
 </svg>

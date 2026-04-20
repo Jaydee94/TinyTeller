@@ -1,6 +1,6 @@
 .button {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border-radius: var(--radius-full);
   border: none;
   background: var(--color-accent);
@@ -14,24 +14,32 @@
   align-items: center;
   justify-content: center;
   outline-offset: 4px;
+  animation: breathe 3s ease-in-out infinite;
 }
 
 .button:hover:not(:disabled) {
   transform: scale(1.08);
-  box-shadow: 0 12px 40px rgba(249, 160, 63, 0.55);
+  box-shadow: 0 14px 44px rgba(255, 158, 74, 0.55);
+  animation: none;
 }
 
 .button:active:not(:disabled) {
-  transform: scale(0.96);
+  transform: scale(0.95);
+  animation: none;
 }
 
 .button:focus-visible {
   outline: 3px solid var(--color-accent-dark);
 }
 
+.button.loading {
+  animation: none;
+}
+
 .button.error {
   background: var(--color-error);
-  box-shadow: 0 8px 32px rgba(192, 57, 43, 0.4);
+  box-shadow: 0 8px 32px rgba(229, 62, 62, 0.38);
+  animation: none;
 }
 
 .button:disabled {
@@ -45,26 +53,39 @@
 }
 
 .sparkle {
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1;
-  animation: pulse 2s ease-in-out infinite;
 }
 
 .spinner {
   display: block;
-  width: 48px;
-  height: 48px;
-  border: 5px solid rgba(255, 255, 255, 0.3);
+  width: 52px;
+  height: 52px;
+  border: 5px solid rgba(255, 255, 255, 0.35);
   border-top-color: #fff;
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
 
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.15); }
+/* Breathing pulse — gentle scale + glow */
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: var(--shadow-magic);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 12px 42px rgba(255, 158, 74, 0.55);
+  }
 }
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    animation: none;
+  }
 }
