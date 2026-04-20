@@ -160,7 +160,7 @@ Dann lachten sie.
 Neue Freunde sind eine der besten Überraschungen der Welt.`,
   },
   {
-    title: 'Grillers freundliche Worte',
+    title: 'Grillis freundliche Worte',
     theme: 'friendship',
     language: 'de',
     content: `Es war Noras Geburtstag!
@@ -189,7 +189,7 @@ Grille dachte nach.
 „Du lässt mich immer weniger klein fühlen," sagte Grille leise.
 
 Noras Augen leuchteten auf.
-Sie nahm Grillers kleine Hand.
+Sie nahm Grillis kleine Hand.
 
 „Das ist das schönste Geschenk von allen," sagte Nora.
 
