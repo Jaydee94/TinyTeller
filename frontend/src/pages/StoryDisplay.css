@@ -1,6 +1,0 @@
-.story-display { padding: 32px; display:flex; justify-content:center }
-.story-container { max-width: 720px }
-.story-title { font-family: Georgia, serif; font-size: 24px; text-align:center }
-.story-body { margin-top: 16px; font-family: Georgia, serif; font-size: 18px; line-height:1.6 }
-.story-actions { display:flex; gap:12px; margin-top:18px; justify-content:center }
-.secondary { background: transparent; border: 1px solid #ccc; padding: 10px 14px; border-radius: 8px }

@@ -1,4 +1,4 @@
-import React from 'react'
+import styles from './MagicButton.module.css'
 
 interface MagicButtonProps {
   onClick: () => void | Promise<void>
@@ -6,17 +6,25 @@ interface MagicButtonProps {
   isError?: boolean
 }
 
-export default function MagicButton({ onClick, isLoading, isError }: MagicButtonProps) {
+export default function MagicButton({ onClick, isLoading = false, isError = false }: MagicButtonProps) {
+  const handleClick = () => {
+    if (!isLoading) onClick()
+  }
+
   return (
     <button
-      className={`magic-button ${isLoading ? 'loading' : ''} ${isError ? 'error' : ''}`}
-      onClick={() => !isLoading && onClick()}
-      aria-pressed={isLoading}
+      className={`${styles.button} ${isLoading ? styles.loading : ''} ${isError ? styles.error : ''}`}
+      onClick={handleClick}
+      disabled={isLoading}
       aria-busy={isLoading}
-      title={isError ? 'Retry' : 'Magic Button'}
+      aria-label={isLoading ? 'Generating your story…' : isError ? 'Try again' : 'Generate a magic story'}
     >
-      <span className="magic-inner">
-        {isLoading ? <span className="spinner" aria-hidden /> : <span className="sparkle">✨</span>}
+      <span className={styles.inner} aria-hidden="true">
+        {isLoading ? (
+          <span className={styles.spinner} />
+        ) : (
+          <span className={styles.sparkle}>✨</span>
+        )}
       </span>
     </button>
   )
