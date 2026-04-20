@@ -46,7 +46,7 @@ Ende.`,
 Sie wusste nicht warum.
 Sie war einfach traurig.
 
-Ihre Freundin Klee das Kaninchen kam zu Besuch.
+Ihre Freundin Klee, das Kaninchen, kam zu Besuch.
 „Möchtest du spielen?" fragte Klee.
 
 „Heute nicht," sagte Hasel.

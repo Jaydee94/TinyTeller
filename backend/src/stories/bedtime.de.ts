@@ -12,7 +12,7 @@ Aber die Tiere konnten es spüren.
 Ein warmes, kuscheliges Gefühl kroch von ihren Zehen bis zu ihren Augen.
 
 Der kleine Zaunkönig war der letzte, der noch wach war.
-Es saß auf seinem Ast.
+Er saß auf seinem Ast.
 
 „Warum schläfst du nicht?" fragte der Mond.
 
@@ -172,7 +172,7 @@ Dass Oma sich besser fühlen möge.
 Und dass der morgige Tag sonnig sein möge.
 
 Der Stern hielt den Wunsch sehr vorsichtig fest.
-Er schickte ihn sanft in den Himmel.
+Er trug ihn sanft durch die Nacht.
 
 „Danke," flüsterte Ines.
 „Danke," flüsterte der Stern.
