@@ -6,8 +6,8 @@
   <a href="https://github.com/Jaydee94/TinyTeller/actions/workflows/ci.yml">
     <img alt="CI" src="https://github.com/Jaydee94/TinyTeller/actions/workflows/ci.yml/badge.svg"/>
   </a>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-20-339933?logo=node.js&logoColor=white"/>
-  <img alt="React" src="https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white"/>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-22-339933?logo=node.js&logoColor=white"/>
+  <img alt="React" src="https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white"/>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white"/>
   <img alt="Docker" src="https://img.shields.io/badge/Docker-ready-2496ed?logo=docker&logoColor=white"/>
 </p>
@@ -42,8 +42,8 @@
 
 | Component | Technology |
 |-----------|-----------|
-| Frontend  | React 18 + TypeScript + Vite, served by nginx |
-| Backend   | Node.js 20 + TypeScript + Fastify |
+| Frontend  | React 19 + TypeScript + Vite, served by nginx |
+| Backend   | Node.js 22 + TypeScript + Fastify |
 | Container | Docker / docker-compose |
 | Kubernetes | Deployments + Services + Ingress + Kustomize |
 
@@ -99,7 +99,7 @@ docker compose up --build
 
 ## 💻 Quick Start — Local Development
 
-Requires: Node.js 20+
+Requires: Node.js 22+
 
 ```bash
 # Terminal 1 — backend
