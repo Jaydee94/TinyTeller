@@ -31,6 +31,11 @@ jobs:
         uses: docker/setup-qemu-action@v2
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
+      - name: Set lowercase image names
+        run: |
+          OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          echo "BACKEND_IMAGE=ghcr.io/${OWNER}/tiny-teller-backend:latest" >> $GITHUB_ENV
+          echo "FRONTEND_IMAGE=ghcr.io/${OWNER}/tiny-teller-frontend:latest" >> $GITHUB_ENV
       - name: Build backend image
         uses: docker/build-push-action@v4
         with:
@@ -51,5 +56,3 @@ jobs:
     env:
       # Configure these via repository or organization secrets if you want CI to push images
       IMAGE_PUSH: false
-      BACKEND_IMAGE: ghcr.io/${{ github.repository_owner }}/tiny-teller-backend:latest
-      FRONTEND_IMAGE: ghcr.io/${{ github.repository_owner }}/tiny-teller-frontend:latest
