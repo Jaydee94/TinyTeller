@@ -741,11 +741,16 @@ useEffect(() => {
 
 ### Authentication
 
-**Token Storage:**
-- Option 1: `localStorage.setItem('authToken', token)`
-- Option 2: httpOnly cookie (handled by server via `Set-Cookie` header)
+**Token Storage (recommended):**
+We **prefer httpOnly cookies** for JWT persistence (server issues `Set-Cookie: token=<jwt>; HttpOnly; Secure; SameSite=Strict; Max-Age=...`). This avoids storing sensitive tokens in JavaScript-accessible storage and reduces XSS risk.
 
-**Token Usage:**
+**Fallback / Alternative:**
+- If backend cannot use httpOnly cookies for the MVP, `localStorage` is a supported fallback but has higher security risk (XSS exposure). If `localStorage` is used, ensure CSP and other mitigations are in place.
+
+**Token Usage (client-side):**
+- When using httpOnly cookies, the browser sends the cookie automatically; the frontend does not need to attach an `Authorization` header in simple cookie-based flows. If the backend expects a Bearer header (or during local dev), the frontend will read from the fallback storage as needed.
+
+Example (when using Bearer header / fallback):
 ```tsx
 const authHeaders = {
   'Authorization': `Bearer ${localStorage.getItem('authToken')}`,
@@ -756,6 +761,9 @@ const authHeaders = {
 - Check for 401 Unauthorized responses
 - Redirect to `/login` if token expired
 - Optionally show toast: "Your session expired. Please log in again."
+
+**Note for Backend / CTO:**
+- UX preference: httpOnly cookie for security and seamless UX. Please confirm which approach the backend will implement so frontend docs and example code can be finalized.
 
 ---
 
