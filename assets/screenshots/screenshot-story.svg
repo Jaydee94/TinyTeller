@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="860" viewBox="0 0 720 860" role="img" aria-label="TinyTeller story screen">
+  <defs>
+    <style>
+      text { font-family: 'Nunito', 'Segoe UI', system-ui, sans-serif; }
+    </style>
+    <filter id="shadow-card">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="rgba(0,0,0,0.06)"/>
+    </filter>
+    <filter id="shadow-magic">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="rgba(255,158,74,0.42)"/>
+    </filter>
+    <clipPath id="card-clip">
+      <rect x="20" y="30" width="680" height="800" rx="36"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="860" fill="#F8F9FA"/>
+
+  <!-- ─── Story Card ─── -->
+  <!-- card shadow + base -->
+  <rect x="20" y="30" width="680" height="800" rx="36" fill="#ffffff" filter="url(#shadow-card)"/>
+
+  <!-- left yellow binding border -->
+  <rect x="20" y="30" width="6" height="800" rx="3" fill="#FFD166"/>
+
+  <!-- page-curl decoration bottom-right -->
+  <polygon points="684,794 720,830 684,830" fill="#F8F9FA"/>
+
+  <!-- ─── Card Header ─── -->
+  <!-- Theme emoji -->
+  <text x="60" y="102" font-size="40">🐾</text>
+
+  <!-- Story title -->
+  <text x="116" y="87" font-size="26" font-weight="800" fill="#2D3748">The Little Duck Who</text>
+  <text x="116" y="116" font-size="26" font-weight="800" fill="#2D3748">Lost His Quack</text>
+
+  <!-- Language badge -->
+  <rect x="540" y="68" width="88" height="28" rx="14" fill="#e8edf2"/>
+  <text x="584" y="87" font-size="13" font-weight="700" fill="#718096" text-anchor="middle">🇬🇧 EN</text>
+
+  <!-- Divider -->
+  <line x1="44" y1="148" x2="676" y2="148" stroke="#e8edf2" stroke-width="1.5"/>
+
+  <!-- ─── Story Content ─── -->
+  <!-- Paragraph 1 -->
+  <text x="44" y="183" font-size="19" fill="#2D3748">
+    <tspan x="44" dy="0">Once upon a time, in a pond surrounded by tall green</tspan>
+    <tspan x="44" dy="30">reeds, there lived a small yellow duck named Pip.</tspan>
+    <tspan x="44" dy="30">Every morning Pip would wake up and quack a happy</tspan>
+    <tspan x="44" dy="30">greeting to the sun — but one day his quack vanished!</tspan>
+  </text>
+
+  <!-- Paragraph 2 -->
+  <text x="44" y="340" font-size="19" fill="#2D3748">
+    <tspan x="44" dy="0">Pip searched high and low. He looked under the lily</tspan>
+    <tspan x="44" dy="30">pads, behind the old oak tree, and even inside a</tspan>
+    <tspan x="44" dy="30">friendly frog's hollow log. "Have you seen my quack?"</tspan>
+    <tspan x="44" dy="30">he asked everyone he met.</tspan>
+  </text>
+
+  <!-- Paragraph 3 -->
+  <text x="44" y="492" font-size="19" fill="#2D3748">
+    <tspan x="44" dy="0">Then a wise old tortoise smiled and said, "Sometimes</tspan>
+    <tspan x="44" dy="30">the things we lose are just waiting for the right</tspan>
+    <tspan x="44" dy="30">moment." Pip took a deep breath, closed his eyes…</tspan>
+    <tspan x="44" dy="30">and out came the biggest, proudest QUACK ever heard!</tspan>
+  </text>
+
+  <!-- Paragraph 4 -->
+  <text x="44" y="644" font-size="19" fill="#2D3748">
+    <tspan x="44" dy="0">All the animals cheered. Pip waddled home through</tspan>
+    <tspan x="44" dy="30">the golden evening light, happy and whole. That night</tspan>
+    <tspan x="44" dy="30">he fell asleep with a tiny smile.</tspan>
+  </text>
+
+  <!-- ─── Another Story Button ─── -->
+  <rect x="240" y="762" width="240" height="50" rx="25" fill="#FF9E4A" filter="url(#shadow-magic)"/>
+  <text x="360" y="793" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">✨ Another Story</text>
+</svg>

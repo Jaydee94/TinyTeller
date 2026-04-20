@@ -20,6 +20,27 @@
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/screenshot-home.svg" alt="TinyTeller — Home screen (English)" width="220"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshots/screenshot-home-de.svg" alt="TinyTeller — Home screen (German)" width="220"/>
+</p>
+<p align="center"><em>Home screen — English (left) &amp; German (right) language selection</em></p>
+
+<p align="center">
+  <img src="assets/screenshots/screenshot-story.svg" alt="TinyTeller — Story card (English)" width="480"/>
+</p>
+<p align="center"><em>Story card — Animals theme 🐾 (English)</em></p>
+
+<p align="center">
+  <img src="assets/screenshots/screenshot-story-de.svg" alt="TinyTeller — Story card (German)" width="480"/>
+</p>
+<p align="center"><em>Story card — Bedtime theme 🌙 (German)</em></p>
+
+---
+
 ## ✨ Features
 
 - **One-tap magic** — a single button delivers a fresh short story instantly

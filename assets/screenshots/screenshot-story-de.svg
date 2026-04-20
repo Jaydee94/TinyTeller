@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="860" viewBox="0 0 720 860" role="img" aria-label="TinyTeller story screen in German">
+  <defs>
+    <style>
+      text { font-family: 'Nunito', 'Segoe UI', system-ui, sans-serif; }
+    </style>
+    <filter id="shadow-card">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="rgba(0,0,0,0.06)"/>
+    </filter>
+    <filter id="shadow-magic">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="rgba(255,158,74,0.42)"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="860" fill="#F8F9FA"/>
+
+  <!-- ─── Story Card ─── -->
+  <rect x="20" y="30" width="680" height="800" rx="36" fill="#ffffff" filter="url(#shadow-card)"/>
+  <!-- left yellow binding border -->
+  <rect x="20" y="30" width="6" height="800" rx="3" fill="#FFD166"/>
+  <!-- page-curl decoration -->
+  <polygon points="684,794 720,830 684,830" fill="#F8F9FA"/>
+
+  <!-- ─── Card Header ─── -->
+  <text x="60" y="102" font-size="40">🌙</text>
+  <text x="116" y="87" font-size="26" font-weight="800" fill="#2D3748">Das kleine Glühwürmchen</text>
+  <text x="116" y="116" font-size="26" font-weight="800" fill="#2D3748">findet seinen Schein</text>
+
+  <!-- Language badge -->
+  <rect x="540" y="68" width="88" height="28" rx="14" fill="#e8edf2"/>
+  <text x="584" y="87" font-size="13" font-weight="700" fill="#718096" text-anchor="middle">🇩🇪 DE</text>
+
+  <!-- Divider -->
+  <line x1="44" y1="148" x2="676" y2="148" stroke="#e8edf2" stroke-width="1.5"/>
+
+  <!-- ─── Story Content ─── -->
+  <!-- Paragraph 1 -->
+  <text x="44" y="183" font-size="19" fill="#2D3748">
+    <tspan x="44" dy="0">Es war einmal ein kleines Glühwürmchen namens Lumi,</tspan>
+    <tspan x="44" dy="30">das in einem großen, dunklen Wald lebte. Jeden Abend</tspan>
+    <tspan x="44" dy="30">versuchte Lumi, sein Licht leuchten zu lassen — doch</tspan>
+    <tspan x="44" dy="30">es wollte einfach nicht so hell strahlen wie die anderen.</tspan>
+  </text>
+
+  <!-- Paragraph 2 -->
+  <text x="44" y="340" font-size="19" fill="#2D3748">
+    <tspan x="44" dy="0">Traurig flog Lumi durch den Wald und fragte die alten</tspan>
+    <tspan x="44" dy="30">Bäume um Rat. "Mach einfach die Augen zu und denke</tspan>
+    <tspan x="44" dy="30">an das, was dich glücklich macht", flüsterte die alte</tspan>
+    <tspan x="44" dy="30">Weide mit einem sanften Rauschen.</tspan>
+  </text>
+
+  <!-- Paragraph 3 -->
+  <text x="44" y="492" font-size="19" fill="#2D3748">
+    <tspan x="44" dy="0">Lumi dachte an warme Sommerabende und an seine</tspan>
+    <tspan x="44" dy="30">Freunde. Plötzlich begann es zu strahlen — heller als</tspan>
+    <tspan x="44" dy="30">je zuvor! Der ganze Wald leuchtete in einem sanften,</tspan>
+    <tspan x="44" dy="30">goldenen Schimmer.</tspan>
+  </text>
+
+  <!-- Paragraph 4 -->
+  <text x="44" y="630" font-size="19" fill="#2D3748">
+    <tspan x="44" dy="0">Alle Tiere des Waldes staunten. Von diesem Tag an</tspan>
+    <tspan x="44" dy="30">leuchtete Lumi jeden Abend, und die kleinen Kinder</tspan>
+    <tspan x="44" dy="30">schliefen friedlich ein, umhüllt von seinem sanften</tspan>
+    <tspan x="44" dy="30">Glanz. Gute Nacht! 🌙</tspan>
+  </text>
+
+  <!-- ─── Another Story Button ─── -->
+  <rect x="220" y="762" width="280" height="50" rx="25" fill="#FF9E4A" filter="url(#shadow-magic)"/>
+  <text x="360" y="793" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">✨ Neue Geschichte</text>
+</svg>

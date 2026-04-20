@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="860" viewBox="0 0 430 860" role="img" aria-label="TinyTeller home screen with German language selected">
+  <defs>
+    <style>
+      text { font-family: 'Nunito', 'Segoe UI', system-ui, sans-serif; }
+    </style>
+    <filter id="shadow-soft">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="rgba(0,0,0,0.07)"/>
+    </filter>
+    <filter id="shadow-magic">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="rgba(255,158,74,0.42)"/>
+    </filter>
+    <filter id="shadow-logo">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="rgba(255,158,74,0.28)"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="430" height="860" fill="#F8F9FA"/>
+
+  <!-- ─── Logo ─── -->
+  <g filter="url(#shadow-logo)" transform="translate(215,148)">
+    <circle r="36" fill="#FF9E4A"/>
+    <text x="0" y="13" font-size="30" text-anchor="middle" dominant-baseline="middle">✨</text>
+  </g>
+
+  <!-- ─── Title ─── -->
+  <text x="215" y="228" font-size="36" font-weight="900" fill="#2D3748"
+        text-anchor="middle" letter-spacing="-0.7">TinyTeller</text>
+
+  <!-- ─── Tagline ─── -->
+  <text x="215" y="265" font-size="21" font-weight="600" fill="#718096" text-anchor="middle">Instant magic stories</text>
+  <text x="215" y="291" font-size="21" font-weight="600" fill="#718096" text-anchor="middle">for little listeners</text>
+
+  <!-- ─── Language toggle (DE active) ─── -->
+  <rect x="131" y="336" width="168" height="46" rx="23" fill="#ffffff" filter="url(#shadow-soft)"/>
+  <!-- inactive EN button -->
+  <text x="171" y="364" font-size="17" font-weight="700" fill="#718096" text-anchor="middle">🇬🇧 EN</text>
+  <!-- active DE button -->
+  <rect x="207" y="340" width="88" height="38" rx="19" fill="#FF9E4A"/>
+  <text x="251" y="364" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">🇩🇪 DE</text>
+
+  <!-- ─── Magic Button ─── -->
+  <circle cx="215" cy="530" r="80" fill="#FF9E4A" filter="url(#shadow-magic)"/>
+  <text x="215" y="556" font-size="52" text-anchor="middle">✨</text>
+
+  <!-- ─── Hint text ─── -->
+  <text x="215" y="652" font-size="18" font-weight="600" fill="#718096" text-anchor="middle">Tap the button for a story ✨</text>
+</svg>
