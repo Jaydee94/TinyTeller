@@ -108,7 +108,7 @@ jobs:
           context: ./backend
           file: ./backend/Dockerfile
           push: ${{ github.event_name == 'push' }}
-          tags: ${{ github.event_name == 'push' && steps.meta-backend.outputs.tags || 'tiny-teller-backend:ci' }}
+          tags: ${{ steps.meta-backend.outputs.tags }}
           labels: ${{ steps.meta-backend.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -128,7 +128,7 @@ jobs:
           context: ./frontend
           file: ./frontend/Dockerfile
           push: ${{ github.event_name == 'push' }}
-          tags: ${{ github.event_name == 'push' && steps.meta-frontend.outputs.tags || 'tiny-teller-frontend:ci' }}
+          tags: ${{ steps.meta-frontend.outputs.tags }}
           labels: ${{ steps.meta-frontend.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
