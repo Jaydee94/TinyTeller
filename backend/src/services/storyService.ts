@@ -1,9 +1,13 @@
 import { v4 as uuidv4 } from 'uuid'
-import { Story, StoryTemplate, Theme } from '../types'
+import { Language, Story, StoryTemplate, Theme } from '../types'
 import { animalStories } from '../stories/animals'
+import { animalStoriesDe } from '../stories/animals.de'
 import { friendshipStories } from '../stories/friendship'
+import { friendshipStoriesDe } from '../stories/friendship.de'
 import { bedtimeStories } from '../stories/bedtime'
+import { bedtimeStoriesDe } from '../stories/bedtime.de'
 import { adventureStories } from '../stories/adventure'
+import { adventureStoriesDe } from '../stories/adventure.de'
 
 const STORY_TTL_MS = 60 * 60 * 1000 // 1 hour
 
@@ -12,11 +16,19 @@ interface StoredStory {
   expiresAt: number
 }
 
-const allStories: Record<Theme, StoryTemplate[]> = {
-  animals: animalStories,
-  friendship: friendshipStories,
-  bedtime: bedtimeStories,
-  adventure: adventureStories,
+const allStories: Record<Language, Record<Theme, StoryTemplate[]>> = {
+  en: {
+    animals: animalStories,
+    friendship: friendshipStories,
+    bedtime: bedtimeStories,
+    adventure: adventureStories,
+  },
+  de: {
+    animals: animalStoriesDe,
+    friendship: friendshipStoriesDe,
+    bedtime: bedtimeStoriesDe,
+    adventure: adventureStoriesDe,
+  },
 }
 
 const themes: Theme[] = ['animals', 'friendship', 'bedtime', 'adventure']
@@ -36,11 +48,11 @@ function evictExpired(): void {
   }
 }
 
-export function generateStory(theme?: Theme): Story {
+export function generateStory(theme?: Theme, language: Language = 'en'): Story {
   evictExpired()
 
   const resolvedTheme: Theme = theme ?? pickRandom(themes)
-  const templates = allStories[resolvedTheme]
+  const templates = allStories[language][resolvedTheme]
   const template = pickRandom(templates)
 
   const story: Story = {
@@ -48,6 +60,7 @@ export function generateStory(theme?: Theme): Story {
     title: template.title,
     content: template.content,
     theme: resolvedTheme,
+    language,
     createdAt: new Date().toISOString(),
   }
 

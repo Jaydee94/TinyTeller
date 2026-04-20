@@ -39,6 +39,7 @@ describe('POST /api/stories/generate', () => {
     expect(body.title).toBeTruthy()
     expect(body.content).toBeTruthy()
     expect(['animals', 'friendship', 'bedtime', 'adventure']).toContain(body.theme)
+    expect(['en', 'de']).toContain(body.language)
     expect(body.createdAt).toBeTruthy()
   })
 
@@ -53,12 +54,46 @@ describe('POST /api/stories/generate', () => {
     expect(res.json().theme).toBe('animals')
   })
 
+  it('defaults to english when no language is provided', async () => {
+    const server = await buildServer()
+    const res = await server.inject({
+      method: 'POST',
+      url: '/api/stories/generate',
+      payload: {},
+    })
+    expect(res.statusCode).toBe(201)
+    expect(res.json().language).toBe('en')
+  })
+
+  it('returns 201 with correct language when language is provided', async () => {
+    const server = await buildServer()
+    for (const language of ['en', 'de']) {
+      const res = await server.inject({
+        method: 'POST',
+        url: '/api/stories/generate',
+        payload: { language },
+      })
+      expect(res.statusCode).toBe(201)
+      expect(res.json().language).toBe(language)
+    }
+  })
+
   it('returns 400 for invalid theme', async () => {
     const server = await buildServer()
     const res = await server.inject({
       method: 'POST',
       url: '/api/stories/generate',
       payload: { theme: 'dragons' },
+    })
+    expect(res.statusCode).toBe(400)
+  })
+
+  it('returns 400 for invalid language', async () => {
+    const server = await buildServer()
+    const res = await server.inject({
+      method: 'POST',
+      url: '/api/stories/generate',
+      payload: { language: 'fr' },
     })
     expect(res.statusCode).toBe(400)
   })

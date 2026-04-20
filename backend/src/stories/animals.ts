@@ -4,6 +4,7 @@ export const animalStories: StoryTemplate[] = [
   {
     title: 'The Little Duck Who Lost His Quack',
     theme: 'animals',
+    language: 'en',
     content: `Once upon a time, in a pond at the edge of a sunny meadow, there lived a little yellow duck named Pip. Pip loved to quack — he quacked at butterflies, quacked at frogs, and quacked at his own reflection in the water.
 
 One morning, Pip woke up and tried to quack. But nothing came out! He opened his beak wide and tried again. Still nothing. His quack had disappeared!
@@ -29,6 +30,7 @@ The end. Sleep tight, little one.`,
   {
     title: 'The Bear Who Was Afraid of the Dark',
     theme: 'animals',
+    language: 'en',
     content: `Bruno was a small brown bear who lived in a cozy den between two oak trees. Bruno loved daytime — chasing butterflies, eating berries, and splashing in the stream. But when the sun went down, Bruno pulled his blanket over his nose and squeezed his eyes shut.
 
 One evening, his friend Owl flew to his den. "Why won't you come watch the stars with us?" Owl asked.
@@ -58,6 +60,7 @@ Goodnight, Bruno. Goodnight, little one.`,
   {
     title: 'The Rabbit Who Found a Rainbow',
     theme: 'animals',
+    language: 'en',
     content: `Rosie Rabbit had never seen a rainbow before. She had heard about them from the older rabbits, who said they were made of all the best colors in the world.
 
 One rainy morning, Rosie looked out of her burrow at the grey sky. "Today is not a rainbow day," she sighed.
@@ -87,6 +90,7 @@ The end.`,
   {
     title: 'The Sleepy Elephant',
     theme: 'animals',
+    language: 'en',
     content: `Ellie the elephant loved many things: splashing in rivers, eating watermelons, and — most of all — her afternoon nap.
 
 Every day after lunch, Ellie found the biggest, shadiest tree in the savanna and closed her enormous eyes.
@@ -116,6 +120,7 @@ Rest well, little elephant. Rest well.`,
   {
     title: 'The Turtle Who Wanted to Fly',
     theme: 'animals',
+    language: 'en',
     content: `Tommy the turtle watched the birds every morning. They swooped and soared and looped through the clouds, and Tommy wished with all his heart that he could do the same.
 
 "I want to fly," Tommy told his friend Sparrow one day.
