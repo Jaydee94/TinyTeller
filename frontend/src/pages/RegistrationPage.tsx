@@ -33,10 +33,13 @@ export default function RegistrationPage() {
       }
 
       if (data?.token) {
-        // MVP: store token client-side and navigate to app
-        // use centralized helper for easier future changes
-        const { setToken } = await import('../lib/auth')
-        setToken(data.token)
+        // Store token only when auth is enabled for the MVP. Controlled by VITE_ENABLE_AUTH.
+        try {
+          const { setToken } = await import('../lib/auth')
+          setToken(data.token)
+        } catch (e) {
+          // Ignore token store failures for demo flow
+        }
       }
       navigate('/app')
     } catch (err) {

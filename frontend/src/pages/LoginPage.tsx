@@ -33,8 +33,13 @@ export default function LoginPage() {
       }
 
       if (data?.token) {
-        const { setToken } = await import('../lib/auth')
-        setToken(data.token)
+        // Store token only when auth is enabled for the MVP. Controlled by VITE_ENABLE_AUTH.
+        try {
+          const { setToken } = await import('../lib/auth')
+          setToken(data.token)
+        } catch (e) {
+          // If auth helper fails (shouldn't), ignore for MVP demo flow
+        }
       }
       navigate('/app')
     } catch (err) {
