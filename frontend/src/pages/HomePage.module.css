@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: var(--space-xl) var(--space-lg);
-  background-color: var(--color-bg);
+  background-color: transparent;
 }
 
 .container {
@@ -26,7 +26,7 @@
 
 .logoImage {
   margin-bottom: var(--space-xs);
-  filter: drop-shadow(0 4px 12px rgba(255, 158, 74, 0.22));
+  filter: drop-shadow(0 4px 18px rgba(255, 209, 102, 0.35));
 }
 
 .title {
@@ -67,18 +67,18 @@
 }
 
 .langButton:hover {
-  background: rgba(142, 202, 230, 0.18);
+  background: rgba(255, 209, 102, 0.15);
   color: var(--color-text);
 }
 
 .langActive {
   background: var(--color-accent);
-  color: #fff;
+  color: #1B1340;
 }
 
 .langActive:hover {
   background: var(--color-accent);
-  color: #fff;
+  color: #1B1340;
 }
 
 .categorySection {
@@ -107,7 +107,7 @@
 .categoryButton {
   padding: var(--space-sm) var(--space-lg);
   border-radius: var(--radius-full);
-  border: 2px solid var(--color-surface);
+  border: 2px solid var(--color-border);
   background: var(--color-surface);
   color: var(--color-text-muted);
   font-size: var(--font-size-md);
@@ -119,7 +119,8 @@
 }
 
 .categoryButton:hover {
-  background: rgba(142, 202, 230, 0.18);
+  background: rgba(255, 209, 102, 0.12);
+  border-color: rgba(255, 209, 102, 0.35);
   color: var(--color-text);
   transform: scale(1.04);
 }
@@ -127,13 +128,13 @@
 .categoryActive {
   background: var(--color-accent);
   border-color: var(--color-accent);
-  color: #fff;
+  color: #1B1340;
 }
 
 .categoryActive:hover {
   background: var(--color-accent);
   border-color: var(--color-accent);
-  color: #fff;
+  color: #1B1340;
   transform: scale(1.04);
 }
 

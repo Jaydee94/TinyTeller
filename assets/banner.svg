@@ -1,71 +1,85 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e8f4fd"/>
-      <stop offset="100%" stop-color="#F8F9FA"/>
+    <!-- Dreamy Nightsky background gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="800" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1B1340"/>
+      <stop offset="100%" stop-color="#2D1B69"/>
     </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.06"/>
-    </filter>
+    <!-- Crescent mask for the banner owl illustration -->
+    <mask id="crescent-mask">
+      <circle cx="99" cy="112" r="27" fill="white"/>
+      <circle cx="111" cy="106" r="22" fill="black"/>
+    </mask>
+    <!-- Soft golden halo behind the moon -->
+    <radialGradient id="moon-glow" cx="99" cy="112" r="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD166" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFD166" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <!-- Background -->
   <rect width="800" height="200" rx="20" fill="url(#bgGrad)"/>
 
-  <!-- Accent blobs -->
-  <circle cx="50"  cy="50"  r="55" fill="#8ECAE6" opacity="0.12"/>
-  <circle cx="760" cy="160" r="50" fill="#FFD166" opacity="0.14"/>
-  <circle cx="780" cy="30"  r="35" fill="#FF9E4A" opacity="0.10"/>
+  <!-- ── Stars ── -->
+  <!-- 4-point star (silver) near illustration -->
+  <path d="M38 38 L39.5 43 L45 44.5 L39.5 46 L38 51 L36.5 46 L31 44.5 L36.5 43 Z"
+        fill="#E8ECF7" opacity="0.90"/>
+  <!-- Small sparkle near title -->
+  <path d="M213 35 L214 39 L218 40 L214 41 L213 45 L212 41 L208 40 L212 39 Z"
+        fill="#E8ECF7" opacity="0.80"/>
+  <!-- 4-point star top-right (gold) -->
+  <path d="M720 30 L722 38 L730 40 L722 42 L720 50 L718 42 L710 40 L718 38 Z"
+        fill="#FFD166" opacity="0.82"/>
+  <!-- Dot stars -->
+  <circle cx="155" cy="28"  r="2.5" fill="#FFD166" opacity="0.85"/>
+  <circle cx="22"  cy="82"  r="2"   fill="#E8ECF7" opacity="0.60"/>
+  <circle cx="170" cy="160" r="1.5" fill="#E8ECF7" opacity="0.50"/>
+  <circle cx="758" cy="155" r="2.5" fill="#E8ECF7" opacity="0.55"/>
+  <circle cx="780" cy="65"  r="2"   fill="#FFD166" opacity="0.50"/>
 
-  <!-- ── Open Book (left side) ── -->
-  <g filter="url(#softShadow)">
-    <!-- Left page -->
-    <path d="M28 80 Q28 70 38 68 L98 64 L98 148 L38 152 Q28 152 28 140 Z"
-          fill="#fff" stroke="#8ECAE6" stroke-width="1.5" stroke-linejoin="round"/>
-    <!-- Right page -->
-    <path d="M170 80 Q170 70 160 68 L102 64 L102 148 L160 152 Q170 152 170 140 Z"
-          fill="#fff" stroke="#8ECAE6" stroke-width="1.5" stroke-linejoin="round"/>
-    <!-- Spine -->
-    <path d="M98 64 Q100 61 102 64 L102 148 Q100 151 98 148 Z" fill="#FFD166"/>
-  </g>
+  <!-- Moon halo glow -->
+  <circle cx="99" cy="112" r="40" fill="url(#moon-glow)"/>
 
-  <!-- Page lines left -->
-  <line x1="36" y1="85"  x2="94" y2="83"  stroke="#8ECAE6" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
-  <line x1="36" y1="97"  x2="94" y2="95"  stroke="#8ECAE6" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
-  <line x1="36" y1="109" x2="94" y2="107" stroke="#8ECAE6" stroke-width="1.5" stroke-linecap="round" opacity="0.40"/>
-  <line x1="36" y1="121" x2="76" y2="119" stroke="#8ECAE6" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  <!-- ── Crescent moon ── -->
+  <circle cx="99" cy="112" r="27" fill="#FFD166" mask="url(#crescent-mask)"/>
 
-  <!-- Page lines right -->
-  <line x1="106" y1="83"  x2="162" y2="85"  stroke="#8ECAE6" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
-  <line x1="106" y1="95"  x2="162" y2="97"  stroke="#8ECAE6" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
-  <line x1="106" y1="107" x2="162" y2="109" stroke="#8ECAE6" stroke-width="1.5" stroke-linecap="round" opacity="0.40"/>
-  <line x1="122" y1="119" x2="162" y2="121" stroke="#8ECAE6" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  <!-- ── Owl ── -->
+  <!-- Wings (behind body) -->
+  <path d="M74 90 Q66 85 68 97 Q74 94 74 101 Z" fill="#3A2070"/>
+  <path d="M102 90 Q110 85 108 97 Q102 94 102 101 Z" fill="#3A2070"/>
 
-  <!-- ── Bird ── -->
   <!-- Body -->
-  <ellipse cx="100" cy="54" rx="20" ry="15" fill="#FF9E4A"/>
-  <!-- Head -->
-  <circle cx="113" cy="43" r="13" fill="#FF9E4A"/>
-  <!-- Wing -->
-  <path d="M80 57 Q70 47 76 37 Q85 50 100 53 Z" fill="#e8832e"/>
-  <!-- Tail -->
-  <path d="M80 62 Q68 70 63 80 Q73 72 81 68 Z" fill="#e8832e"/>
-  <!-- Eye -->
-  <circle cx="118" cy="41" r="3"   fill="#2D3748"/>
-  <circle cx="119" cy="40" r="1.1" fill="#fff"/>
-  <!-- Beak -->
-  <path d="M124 46 L131 45 L124 49 Z" fill="#FFD166"/>
-  <!-- Feet -->
-  <line x1="95"  y1="69" x2="93"  y2="72" stroke="#e8832e" stroke-width="2" stroke-linecap="round"/>
-  <line x1="105" y1="69" x2="107" y2="72" stroke="#e8832e" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="88" cy="94" rx="14" ry="16" fill="#4A2E8C"/>
+  <!-- Belly highlight -->
+  <ellipse cx="88" cy="97" rx="8" ry="10" fill="#6B4BAE" opacity="0.75"/>
 
-  <!-- Sparkles -->
-  <path d="M200 35 L201 39 L205 40.5 L201 42 L200 46 L199 42 L195 40.5 L199 39Z" fill="#FFD166" opacity="0.80"/>
-  <path d="M730 40 L731 44 L735 45.5 L731 47 L730 51 L729 47 L725 45.5 L729 44Z" fill="#8ECAE6" opacity="0.80"/>
+  <!-- Head -->
+  <circle cx="88" cy="72" r="16" fill="#4A2E8C"/>
+  <!-- Ear tufts -->
+  <polygon points="77,61 82,52 86,61" fill="#4A2E8C"/>
+  <polygon points="90,61 94,52 99,61" fill="#4A2E8C"/>
+  <!-- Face disc -->
+  <ellipse cx="88" cy="74" rx="11" ry="10" fill="#6B4BAE" opacity="0.80"/>
+
+  <!-- Sleepy closed eyes -->
+  <path d="M80 73 Q84 70 87 73" fill="none" stroke="#F5F0FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M89 73 Q93 70 96 73" fill="none" stroke="#F5F0FF" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Eyelash dots -->
+  <circle cx="84" cy="69" r="1.1" fill="#F5F0FF" opacity="0.55"/>
+  <circle cx="93" cy="69" r="1.1" fill="#F5F0FF" opacity="0.55"/>
+
+  <!-- Beak -->
+  <polygon points="86,80 90,80 88,85" fill="#FFD166"/>
+
+  <!-- Feet resting on the moon -->
+  <line x1="83" y1="109" x2="79" y2="114" stroke="#FFD166" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="83" y1="109" x2="83" y2="115" stroke="#FFD166" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="93" y1="109" x2="97" y2="114" stroke="#FFD166" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="93" y1="109" x2="93" y2="115" stroke="#FFD166" stroke-width="2.5" stroke-linecap="round"/>
 
   <!-- ── Text ── -->
-  <text x="230" y="102" font-family="Nunito, system-ui, sans-serif"
-        font-size="52" font-weight="900" fill="#2D3748" letter-spacing="-0.5">TinyTeller</text>
-  <text x="232" y="135" font-family="Nunito, system-ui, sans-serif"
-        font-size="20" fill="#718096" letter-spacing="0.5">✨ Instant magic stories for little listeners</text>
+  <text x="220" y="100" font-family="Nunito, system-ui, sans-serif"
+        font-size="52" font-weight="900" fill="#F5F0FF" letter-spacing="-0.5">TinyTeller</text>
+  <text x="222" y="138" font-family="Nunito, system-ui, sans-serif"
+        font-size="20" fill="#C9A7FF" letter-spacing="0.5">🌙 Dreamy stories for little dreamers</text>
 </svg>
