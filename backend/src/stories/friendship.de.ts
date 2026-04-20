@@ -2,160 +2,314 @@ import { StoryTemplate } from '../types'
 
 export const friendshipStoriesDe: StoryTemplate[] = [
   {
-    title: 'Zwei verschiedene Freunde',
+    title: 'Milo und Brummi',
     theme: 'friendship',
     language: 'de',
-    content: `Milo die Maus war sehr ordentlich. Er mochte gerade Linien, ruhige Nachmittage und das Schreiben von Listen. Seine neue Nachbarin, Brummi das Bärenjunge, war sehr unordentlich. Sie mochte Purzelbäume, lautes Lachen und alles auf einmal tun.
+    content: `Milo war eine kleine Maus.
+Er mochte alles ordentlich und sauber.
 
-„Sie werden nie Freunde sein", sagten die älteren Tiere.
+Brummi war ein kleines Bärchen.
+Sie mochte Purzelbäume und Kichern.
 
-Aber an einem regnerischen Nachmittag schrieb Milo gerade eine Liste, als er nebenan Weinen hörte. Er spähte heraus und sah Brummi im Schlamm sitzen, sehr klein aussehend.
+„Sie sind zu verschieden, um Freunde zu sein," sagten die großen Tiere.
 
-„Was ist passiert?", fragte Milo.
+Aber an einem Regentag hörte Milo Weinen von nebenan.
+Er ging schauen.
+Brummi saß in einer Schlammpfütze.
+Sie sah sehr traurig aus.
 
-„Ich habe mein Honigglas fallen gelassen und es ist zerbrochen", schluchzte Brummi. „Es war das letzte."
+„Was ist passiert?" fragte Milo.
 
-Milo dachte einen Moment nach. Er hatte etwas Honig, den er gespart hatte. Sehr sorgfältig brachte er ihn hinüber.
+„Ich habe mein Honigglas fallen gelassen," sagte Brummi. „Es ist kaputt."
 
-Brummi sah ihn an. „Du teilst mit mir? Aber ich bin so unordentlich und du bist so ordentlich."
+Milo ging hinein.
+Er kam zurück mit etwas von seinem eigenen Honig.
 
-„Du bist traurig", sagte Milo einfach. „Das ist wichtiger."
+Brummi sah hoch.
+„Du teilst mit mir?" sagte sie.
 
-Brummi umarmte Milo so fest, dass seine sorgfältig gebügelte Jacke zerknittert wurde. Das machte ihm überhaupt nichts aus.
+„Du bist traurig," sagte Milo. „Das ist wichtiger."
 
-Von da an lernte Brummi, jeden Tag eine kleine Liste zu machen, und Milo lernte, mindestens einmal pro Woche in den Blättern zu purzeln.
+Brummi gab Milo eine riesengroße Umarmung.
+Seine ordentliche Jacke wurde ein bisschen zerknittert.
+Das machte ihm gar nichts aus.
 
-Sie waren in jeder Hinsicht verschieden. Und sie waren die allerbesten Freunde.
+Von da an waren sie die allerbesten Freunde.
 
 Ende.`,
   },
   {
-    title: 'Der Freund, der zuhörte',
+    title: 'Klee bleibt da',
     theme: 'friendship',
     language: 'de',
-    content: `Hasel der Igel hatte viele Gefühle. Manche Tage fühlte sie sich wie Sonnenschein, andere Tage wie ein sehr regnerischer Dienstag.
+    content: `Hasel der Igel wachte traurig auf.
+Sie wusste nicht warum.
+Sie war einfach traurig.
 
-Eines Morgens wachte Hasel auf und fühlte sich wie ein regnerischer Dienstag, und sie wusste nicht warum.
+Ihre Freundin Klee das Kaninchen kam zu Besuch.
+„Möchtest du spielen?" fragte Klee.
 
-Ihre Freundin Klee das Kaninchen kam, um nach ihr zu sehen. „Möchtest du spielen?", fragte Klee.
+„Heute nicht," sagte Hasel.
 
-„Nicht wirklich", sagte Hasel.
+Klee setzte sich neben sie.
+Sie sagte nicht „Sei fröhlich."
+Sie sagte Hasel nicht, was sie tun sollte.
+Sie saß einfach still da.
 
-Klee setzte sich neben sie. Sie schlug keine Spiele vor. Sie sagte nicht „Komm, sei fröhlich." Sie saß einfach da, still, während die Brise das Gras um sie herum bewegte.
+Die Sonne bewegte sich langsam über den Himmel.
+Eine Biene besuchte eine Blume.
+Eine Wolke änderte ihre Form.
 
-Nach einer Weile sagte Hasel: „Ich fühle mich einfach traurig. Ich weiß nicht einmal warum."
+Nach einer Weile sagte Hasel,
+„Ich bin traurig und ich weiß nicht mal warum."
 
-„Das ist in Ordnung", sagte Klee. „Gefühle kommen nicht immer mit einem Grund."
+„Das ist in Ordnung," sagte Klee.
+„Ich bleibe hier bei dir."
 
-Hasel spürte, wie sich etwas in ihrer Brust lockerte. „Du wirst nicht versuchen, es zu reparieren?"
+Hasel fühlte sich ein bisschen besser.
+Nicht weil die Traurigkeit weg war.
+Sondern weil sie nicht allein war.
 
-„Ich kann Gefühle nicht reparieren", sagte Klee. „Aber ich kann bei dir sitzen, während du sie hast."
+„Danke, dass du geblieben bist," sagte Hasel.
 
-Sie saßen lange zusammen. Eine Biene besuchte eine Blume. Eine Wolke änderte ihre Form. Langsam begann Hasels trauriges Gefühl sich zu heben – nicht weil es repariert war, sondern weil sie es nicht allein trug.
+„Immer," sagte Klee.
 
-„Danke, dass du geblieben bist", sagte sie.
-
-„Immer", sagte Klee.
-
-Bei jemandem zu sein, wenn er traurig ist, ist eines der freundlichsten Dinge, die man tun kann. Gute Nacht, kleines.`,
+Gute Nacht, kleines.`,
   },
   {
-    title: 'Der Streit und der Apfelbaum',
+    title: 'Entschuldigung am Apfelbaum',
     theme: 'friendship',
     language: 'de',
-    content: `Sam und Leo waren beste Freunde, seit sie denken konnten. Sie spielten jeden Tag zusammen. Aber an einem Nachmittag stritten sie darüber, welcher Apfel der größte war.
+    content: `Sam und Leo waren beste Freunde.
+Sie spielten jeden einzelnen Tag zusammen.
 
-„Dieser hier", sagte Sam.
+Aber an einem Nachmittag stritten sie sich.
+Es ging darum, welcher Apfel der größte war.
 
-„Nein, dieser", sagte Leo.
+„Dieser!" sagte Sam.
+„Nein, dieser!" sagte Leo.
 
-„Du hörst nie zu", sagte Sam.
+Beide stapften davon.
+Sam ging in eine Richtung. Leo in die andere.
 
-„Du teilst nie", sagte Leo.
+Sam versuchte alleine zu spielen.
+Es machte keinen Spaß.
 
-Sie stapften zu entgegengesetzten Enden der Wiese und saßen mit verschränkten Armen.
+Leo versuchte alleine auf einen Baum zu klettern.
+Das machte auch keinen Spaß.
 
-Der Nachmittag verging sehr langsam. Sam versuchte alleine einen Zweigturm zu bauen, aber es machte keinen Spaß. Leo versuchte alleine auf den Eichenbaum zu klettern, aber es war besser, wenn jemand ihn absicherte.
+Als die Sonne orange wurde, gingen beide zurück.
+Sie gingen zum Apfelbaum.
+Sie kamen im gleichen Moment an.
 
-Als die Sonne orange wurde, trieben beide zurück zum Apfelbaum. Sie kamen im selben Moment an und standen inne und sahen sich an.
+Sie sahen sich an.
 
-„Es tut mir leid", sagten sie beide genau zur gleichen Zeit.
+„Es tut mir leid," sagte Sam.
+„Es tut mir leid," sagte Leo.
 
+Sie sagten es genau zur gleichen Zeit!
 Dann lachten sie beide.
 
-„Der Streit war albern", sagte Sam.
+„Das war albern," sagte Sam.
 
-„Sehr albern", sagte Leo.
+„Sehr albern," sagte Leo. „Du wählst zuerst."
 
-„Welchen Apfel möchtest du?", fragte Sam.
+Sam nahm den kleineren Apfel und lächelte.
+„Freunde teilen," sagte er.
 
-„Du wählst zuerst", sagte Leo.
+Sie saßen zusammen und aßen.
+Alles war wieder gut.
 
-Sam wählte den kleineren. Leo hob die Augenbrauen.
-
-„Freunde teilen", sagte Sam und lächelte.
-
-Leo lächelte zurück. Sie saßen unter dem Apfelbaum und aßen, und der Nachmittag war wieder gut.
-
-Selbst beste Freunde streiten manchmal. Was zählt, ist das Zurückkommen.`,
+Selbst beste Freunde streiten manchmal. Zurückzukommen ist das Wichtigste.`,
   },
   {
-    title: 'Ein neuer Freund am Teich',
+    title: 'Felix und der neue Freund',
     theme: 'friendship',
     language: 'de',
-    content: `Jeden Morgen saß Felix der Frosch auf seinem Seerosenblatt und beobachtete den Teich. Er kannte jede Welle, jedes Schilf, jeden Fisch. Er mochte das so.
+    content: `Felix der Frosch saß jeden Morgen auf seinem Seerosenblatt.
+Er kannte alles an seinem Teich.
+Er mochte es genau so, wie es war.
 
-Eines Morgens kam ein neues Wesen. Es war klein und orange und hatte einen sehr buschigen Schwanz.
+Eines Morgens kam ein kleines oranges Eichhörnchen zum Teich.
 
-„Hallo", sagte es. „Ich bin Farn. Ich bin ein Eichhörnchen. Ich war noch nie an einem Teich."
+„Hallo!" sagte es. „Ich bin Farn. Ich habe noch nie einen Teich gesehen!"
 
-Felix blinzelte. „Du solltest aufpassen. Der Schlamm ist rutschig."
+„Pass auf den Schlamm auf," sagte Felix. „Er ist rutschig."
 
-Farn trat auf einen Stein und rutschte sofort aus. Felix hüpfte schnell herüber und half ihr auf.
+Farn trat auf einen Stein.
+Platsch! Sie rutschte direkt ins Wasser.
 
-„Du hattest recht mit dem Schlamm", sagte Farn, triefend nass.
+Felix hüpfte schnell herüber, um ihr aufzuhelfen.
 
-„Bist du in Ordnung?", fragte Felix.
+„Du hattest recht mit dem Schlamm," sagte Farn, ganz nass.
 
-„Jetzt schon", sagte sie. „Danke."
+„Bist du in Ordnung?" fragte Felix.
 
-Sie saßen auf Felix' Seerosenblatt – das etwas eng war – und Farn erzählte Felix von den Baumkronen, wo man meilenweit sehen konnte. Felix erzählte Farn vom tiefen, kühlen Wasser, wo es immer still war.
+„Jetzt schon. Danke!"
 
-„Ich habe keines von beidem je gesehen", sagten sie beide zur gleichen Zeit und lachten dann.
+Sie saßen zusammen auf dem Seerosenblatt.
+Farn erzählte Felix von den hohen Baumkronen.
+Felix erzählte Farn vom kühlen, stillen tiefen Wasser.
 
-„Eines Tages zeige ich dir die Baumkronen", sagte Farn.
+„Das habe ich noch nie gesehen!" sagten sie beide.
+Dann lachten sie.
 
-„Eines Tages zeige ich dir das tiefe Wasser", sagte Felix.
-
-Sie beobachteten die tanzenden Libellen, bis es Zeit war, nach Hause zu gehen.
+„Ich zeige dir eines Tages die Baumkronen," sagte Farn.
+„Ich zeige dir eines Tages das tiefe Wasser," sagte Felix.
 
 Neue Freunde sind eine der besten Überraschungen der Welt.`,
   },
   {
-    title: 'Das Geschenk, das nichts kostete',
+    title: 'Grillers freundliche Worte',
     theme: 'friendship',
     language: 'de',
-    content: `Es war Noras, der kleinen Maus, Geburtstag, und alle ihre Freunde wollten ihr etwas Besonderes bringen.
+    content: `Es war Noras Geburtstag!
+Alle ihre Freunde brachten ihr Geschenke.
 
-Robin brachte eine leuchtend rote Feder. Eichhörnchen brachte drei Eicheln. Frosch brachte einen glatten, runden Kieselstein aus dem Bach.
+Robin brachte eine rote Feder.
+Eichhörnchen brachte drei Eicheln.
+Frosch brachte einen glatten, runden Kieselstein.
 
-Aber die kleine Grille hatte nichts zu bringen. Sie hatte den ganzen Tag gesucht und nichts Geschenktaugliches gefunden. Sie kam als letzte an, mit leeren Händen, den Kopf hängen lassend.
+Aber die kleine Grille hatte nichts.
+Sie hatte den ganzen Tag gesucht.
+Sie konnte nichts zum Mitbringen finden.
 
-„Es tut mir leid, Nora", sagte Grille. „Ich habe kein Geschenk."
+Grille kam als letzte an.
+Ihre Hände waren leer.
+Ihr Kopf hing tief.
 
-Nora sah sie gütig an. „Dann gib mir etwas Besseres. Sag mir etwas Wahres."
+„Es tut mir leid, Nora," sagte Grille. „Ich habe kein Geschenk."
 
-Grille dachte nach. „Du bist der Freund, der mich immer weniger klein fühlen lässt", sagte sie.
+Nora lächelte freundlich.
+„Dann gib mir etwas Besseres," sagte sie.
+„Sag mir etwas Wahres."
 
-Noras Augen leuchteten auf. Sie nahm Grillers winzige Hand.
+Grille dachte nach.
 
-„Das ist das beste Geschenk, das ich heute bekommen habe", sagte Nora.
+„Du lässt mich immer weniger klein fühlen," sagte Grille leise.
 
-Grille fühlte sich ganz warm. Sie hatte nicht gewusst, dass Worte Geschenke sein konnten. Aber natürlich konnten sie – die richtigen Worte, aufrichtig gesagt, sind einige der schönsten Geschenke der Welt.
+Noras Augen leuchteten auf.
+Sie nahm Grillers kleine Hand.
 
-Sie hatten eine wunderbare Feier, und nachdem die Feder und die Eicheln und der Kieselstein bewundert wurden, waren es Grillers Worte, an die sich alle erinnerten.
+„Das ist das schönste Geschenk von allen," sagte Nora.
 
-Sag den Menschen, die du liebst, was du an ihnen liebst. Es kostet nichts und bedeutet alles.
+Grille fühlte sich ganz warm.
+
+Worte können auch Geschenke sein.
+Die richtigen Worte bedeuten alles.
+
+Ende.`,
+  },
+  {
+    title: 'Die neue Nachbarin',
+    theme: 'friendship',
+    language: 'de',
+    content: `Eine neue Familie zog nebenan ein.
+Sie hatten ein kleines Mädchen namens Lena.
+
+Lena stand am Zaun.
+Sie sah ein bisschen ängstlich aus.
+
+Ben war in seinem Garten.
+Er sah Lena.
+Er ging langsam herüber.
+
+„Hallo," sagte Ben. „Ich bin Ben."
+
+„Hallo," sagte Lena. „Ich bin Lena. Ich bin neu hier."
+
+„Ich weiß," sagte Ben. „Möchtest du meinen Garten sehen?"
+
+Lena nickte.
+
+Ben zeigte ihr die Sonnenblumen.
+Er zeigte ihr den Marienkäfer auf dem großen Blatt.
+Er zeigte ihr die runden, roten Beeren.
+
+„Wow," sagte Lena. Ihre Augen wurden groß.
+
+„Du kannst jederzeit wiederkommen," sagte Ben.
+
+Lena lächelte zum ersten Mal an diesem Tag.
+
+Als sie nach Hause ging, fragte ihre Mama,
+„Hast du einen Freund gefunden?"
+
+„Ich glaube schon," sagte Lena. „Er heißt Ben."
+
+Es braucht nur ein einziges Hallo, um einen neuen Freund zu finden.`,
+  },
+  {
+    title: 'Die große Umarmung',
+    theme: 'friendship',
+    language: 'de',
+    content: `Max hatte einen schlechten Tag.
+Er fiel hin und verletzte sein Knie.
+Sein Sandwich fiel in eine Pfütze.
+Er konnte seinen roten Ball nicht finden.
+
+Er saß draußen auf der Treppe und war sehr traurig.
+
+Seine Freundin Lily kam gerannt.
+Sie sagte nichts.
+Sie öffnete einfach die Arme weit.
+
+Max lief direkt in diese Umarmung hinein.
+
+Lily umarmte ihn fest.
+Max umarmte Lily fest.
+
+Sie blieben so eine ganze Minute lang.
+
+Dann fühlte Max sich ein bisschen besser.
+
+„Ich hatte einen schlechten Tag," sagte Max.
+
+„Ich weiß," sagte Lily. „Ich auch manchmal."
+
+„Hilft das?" fragte Max.
+
+„Die Umarmung? Ja," sagte Lily. „Sehr."
+
+Max lächelte.
+
+Manchmal ist eine Umarmung alles, was man braucht.
+Gib heute jemandem eine Umarmung, kleines.`,
+  },
+  {
+    title: 'Wir sind verschieden, wir sind Freunde',
+    theme: 'friendship',
+    language: 'de',
+    content: `Finn war groß.
+Mia war klein.
+
+Finn mochte laute Musik und Tanzen.
+Mia mochte stille Bücher und Malen.
+
+Finn war schnell.
+Mia war langsam.
+
+„Sie sind zu verschieden," sagten die anderen Kinder.
+
+Aber Finn liebte Mias Zeichnungen.
+Und Mia liebte Finns Tanzen.
+
+Eines Tages malte Mia ein Bild.
+Es war ein Bild von ihnen beiden, tanzend und malend zusammen.
+
+Sie gab es Finn.
+
+Finn schaute es lange an.
+„Das ist das Schönste, das mir je jemand gegeben hat," sagte er.
+
+„Wir sind verschieden," sagte Mia.
+„Aber das ist in Ordnung."
+„Das ist eigentlich ziemlich toll," sagte Finn.
+
+Sie wurden die besten Freunde.
+
+Verschieden zu sein ist wunderbar.
+Die Welt wäre langweilig, wenn wir alle gleich wären.
 
 Ende.`,
   },

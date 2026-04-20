@@ -2,147 +2,320 @@ import { StoryTemplate } from '../types'
 
 export const animalStories: StoryTemplate[] = [
   {
-    title: 'The Little Duck Who Lost His Quack',
+    title: 'Pip the Little Duck',
     theme: 'animals',
     language: 'en',
-    content: `Once upon a time, in a pond at the edge of a sunny meadow, there lived a little yellow duck named Pip. Pip loved to quack — he quacked at butterflies, quacked at frogs, and quacked at his own reflection in the water.
+    content: `Pip was a little yellow duck.
+He lived by a big, shiny pond.
 
-One morning, Pip woke up and tried to quack. But nothing came out! He opened his beak wide and tried again. Still nothing. His quack had disappeared!
+Every day Pip said, "Quack! Quack! Quack!"
+He quacked at the frogs. He quacked at the fish.
+He quacked at his own face in the water!
 
-Pip waddled over to Mrs. Rabbit. "Have you seen my quack?" he asked in a tiny whisper.
+One morning Pip woke up and tried to quack.
+But nothing came out!
 
-Mrs. Rabbit twitched her nose. "I haven't seen it, but have you tried looking by the lily pads?"
+"Oh no!" said Pip. "Where is my quack?"
 
-Pip hopped to the lily pads. A friendly frog sat there, blinking slowly. "Looking for something?" the frog asked.
+He went to see his friend Frog.
+"Frog! I lost my quack!" said Pip.
 
-"My quack!" said Pip sadly.
+Frog smiled a big smile.
+"Maybe you just need to laugh," said Frog.
 
-The frog smiled. "Sometimes our voices hide when we feel lonely. Have you laughed today?"
+Frog made the silliest face Pip had ever seen.
 
-Pip thought about it. He hadn't. So the frog told the silliest joke about a muddy boot, and Pip laughed so hard that — QUACK! — out came his voice, loud and proud!
+Pip laughed and laughed and laughed.
+And then — QUACK! — out came his voice!
 
-"My quack is back!" Pip cheered.
+"My quack is back!" cheered Pip.
 
-From that day on, Pip made sure to laugh with his friends every single morning. And his quack was always the loudest in the pond.
+Frog and Pip splashed and played all day long.
 
 The end. Sleep tight, little one.`,
   },
   {
-    title: 'The Bear Who Was Afraid of the Dark',
+    title: 'Bruno and the Stars',
     theme: 'animals',
     language: 'en',
-    content: `Bruno was a small brown bear who lived in a cozy den between two oak trees. Bruno loved daytime — chasing butterflies, eating berries, and splashing in the stream. But when the sun went down, Bruno pulled his blanket over his nose and squeezed his eyes shut.
+    content: `Bruno was a small brown bear.
+He loved sunny days.
+He loved eating berries.
+He loved splashing in the stream.
 
-One evening, his friend Owl flew to his den. "Why won't you come watch the stars with us?" Owl asked.
+But at night, Bruno was scared.
+He pulled his blanket over his nose.
+He closed his eyes very tight.
 
-"The dark is too big," Bruno said.
+One evening, his friend Owl came by.
+"Bruno! Come look at the stars!" called Owl.
 
-Owl blinked her big golden eyes. "The dark is not big," she said softly. "The dark is just the world saying goodnight. Close your eyes and listen."
+"The dark is too big," said Bruno.
 
-Bruno peeked out. He heard crickets singing, and the stream gurgling softly, and a breeze whispering through the leaves.
+"Come and listen," said Owl softly.
 
-"That sounds nice," said Bruno.
+Bruno peeked out.
+He heard crickets singing.
+He heard the stream going splash splash.
+He heard the wind in the leaves.
 
-"The dark keeps all those sounds safe," said Owl. "And look — the moon is your night light."
+"That sounds so nice," said Bruno.
 
-Bruno looked up. The big, round moon smiled down at him, silvery and calm.
+"And look up," said Owl.
 
-Bruno stepped outside. The stars blinked like tiny friends above him.
+Bruno looked up.
+The big round moon was shining.
+Lots of little stars were twinkling.
+They looked just like tiny friends!
 
-"I was afraid for nothing," he whispered.
+"Hello, stars!" said Bruno.
 
-"Being brave just means trying," said Owl.
+He sat with Owl and watched the sky.
+Soon his eyes felt very heavy.
 
-Bruno sat with Owl and watched the stars until his eyes grew very, very heavy. He padded back to his den, tucked himself in, and slept the most peaceful sleep he had ever known.
+He went back to his cozy den and fell fast asleep.
 
 Goodnight, Bruno. Goodnight, little one.`,
   },
   {
-    title: 'The Rabbit Who Found a Rainbow',
+    title: 'Rosie Finds a Rainbow',
     theme: 'animals',
     language: 'en',
-    content: `Rosie Rabbit had never seen a rainbow before. She had heard about them from the older rabbits, who said they were made of all the best colors in the world.
+    content: `Rosie was a little rabbit with big floppy ears.
+She had never ever seen a rainbow.
 
-One rainy morning, Rosie looked out of her burrow at the grey sky. "Today is not a rainbow day," she sighed.
+One morning it was raining.
+Rosie looked outside. Everything was grey.
+"No rainbow today," she said sadly.
 
-But then the rain stopped, and a patch of sunlight broke through the clouds. Rosie's nose twitched. She bounded outside.
+Then the rain stopped.
+The sun came out!
+Rosie's nose went wiggle wiggle wiggle.
 
-There, stretching from the big apple tree to the hill beyond the meadow, was the most beautiful arc of color she had ever seen. Red, orange, yellow, green, blue, and violet, all melting into each other like a painting.
+She hopped outside.
 
-"Oh!" said Rosie, sitting very still so she would not scare it away.
+There it was!
+A rainbow! Big and beautiful!
+Red! Orange! Yellow! Green! Blue! Purple!
 
-Her friend Squirrel rushed over. "What are you looking at?"
+"Oh!" said Rosie. She sat very still.
 
-"The rainbow," Rosie whispered.
+Her friend Squirrel came running.
+Then Hedgehog came.
+Then two little mice came too.
 
-Squirrel sat beside her. Then Hedgehog came. Then the two little field mice. They all sat together in the wet grass, looking up at the colors.
+They all sat in the wet grass together.
+They looked and looked at the rainbow.
 
-Nobody said anything for a long time. They just watched together.
+"Rainbows are even better with friends," said Rosie.
 
-When the rainbow slowly faded, Rosie sighed happily. "I think rainbows are better when you share them," she said.
+Everyone agreed.
 
-All her friends agreed.
-
-That night, Rosie drew a rainbow in the dirt with a stick, so she could remember. And she drew all her friends around it.
+That night Rosie drew a rainbow with a stick.
+She drew all her friends around it.
 
 The end.`,
   },
   {
-    title: 'The Sleepy Elephant',
+    title: 'Ellie Loves Her Nap',
     theme: 'animals',
     language: 'en',
-    content: `Ellie the elephant loved many things: splashing in rivers, eating watermelons, and — most of all — her afternoon nap.
+    content: `Ellie was a big, happy elephant.
+She loved splashing in the river.
+She loved eating watermelons.
+But most of all, she loved her nap!
 
-Every day after lunch, Ellie found the biggest, shadiest tree in the savanna and closed her enormous eyes.
+Every day after lunch, Ellie found the shadiest tree.
+She closed her enormous eyes.
+She took a long, lovely nap.
 
-One day, her friends Zebra and Giraffe ran over, panting. "Ellie! Ellie! Come play! We found a giant ant hill!"
+One day Zebra and Giraffe came running.
+"Ellie! Ellie! Come and play!"
 
-Ellie yawned a yawn so wide she could have swallowed a small cloud. "After my nap," she said.
+Ellie yawned a huge yawn.
+"After my nap," she said.
 
-"But the ants might be gone by then!" said Zebra.
+"But we want to play NOW!" said Zebra.
 
-"The ants will still be there," Ellie said peacefully. "Ants are very dedicated."
+"I will be ready after my nap," said Ellie.
+She pulled a big leaf over herself and fell asleep.
 
-She pulled a large leaf over herself and fell asleep.
+When she woke up, she stretched all four legs.
+She wiggled her trunk.
+She let out a happy TOOT!
 
-When she woke up, the world was golden with late afternoon sun. She stretched all four legs, wiggled her trunk, and trumpeted happily.
+"I am ready!" she said.
+Zebra and Giraffe were still there, waiting.
 
-She found Zebra and Giraffe by the ant hill, which was indeed still there, as busy as ever.
+They played and played until the sky turned pink.
 
-"You were right," said Zebra. "The ants stayed."
-
-"Naps are important," said Ellie wisely. "Now I am full of energy to watch ants for as long as you like."
-
-And so they did, until the fireflies came out and the sky turned pink.
-
-Rest well, little elephant. Rest well.`,
+Naps are very important. Sleep well, little one.`,
   },
   {
-    title: 'The Turtle Who Wanted to Fly',
+    title: 'Tommy and the Wind',
     theme: 'animals',
     language: 'en',
-    content: `Tommy the turtle watched the birds every morning. They swooped and soared and looped through the clouds, and Tommy wished with all his heart that he could do the same.
+    content: `Tommy was a little turtle.
+Every morning he watched the birds fly.
+Up, up, up they went!
 
-"I want to fly," Tommy told his friend Sparrow one day.
+"I want to fly too," said Tommy.
 
-Sparrow tilted her head. "But you are a turtle."
+His friend Sparrow tilted her little head.
+"But Tommy, you are a turtle."
 
 "I know," said Tommy. "But I still want to."
 
-Sparrow thought for a moment. "I cannot make you fly," she said. "But I can show you the sky in a different way."
+Sparrow thought for a moment.
+"I have an idea," she said.
 
-She led Tommy to a tall hill. At the top, they could see everything — the river like a silver ribbon, the forest like a green carpet, and the clouds sailing slowly overhead.
+She led Tommy up a big, tall hill.
+Tommy walked slowly. Slowly. Slowly.
 
-Tommy stood very still. The wind ruffled his neck and pushed at his shell.
+At the top, Tommy could see everything!
+The river sparkled like silver.
+The forest was bright green.
+The clouds sailed slowly by.
 
-"I am not flying," he said slowly, "but I can feel the wind the same as you do."
+Then the wind came.
+It ruffled Tommy's neck. It pushed at his shell.
 
-"Yes," said Sparrow, landing on his shell. "The wind doesn't care who you are."
+Tommy closed his eyes.
+He felt the wind on his face.
 
-Tommy smiled his slow turtle smile. He stayed on the hill until the sun went down, feeling the breeze and watching the clouds change shape.
+"I can feel the sky," said Tommy softly.
 
-He could not fly. But he could feel the sky. And that, he decided, was pretty wonderful.
+"Yes," said Sparrow. "The wind is for everyone."
 
-Dream big tonight, little one. Even turtles can touch the sky.`,
+Tommy smiled his slow, slow smile.
+He stayed on the hill until the sun went down.
+
+Dream big, little one. Even turtles can touch the sky.`,
+  },
+  {
+    title: 'Leo the Little Lion',
+    theme: 'animals',
+    language: 'en',
+    content: `Leo was a little lion cub.
+All the big lions had a big, loud ROAR.
+But Leo's roar was very, very tiny.
+
+"ROAR," said Leo.
+
+"Was that a roar?" asked his big sister.
+"Or was it a sneeze?"
+
+Leo felt sad.
+He went and sat under a tree.
+
+His mama came and sat beside him.
+"What is wrong, my Leo?" she asked.
+
+"My roar is too small," said Leo.
+
+Mama smiled.
+"Every big roar starts as a little one," she said.
+"Even mine was small once."
+
+"Really?" said Leo.
+
+"Really," said Mama.
+
+She gave Leo a big warm hug.
+
+Leo took a deep breath.
+He opened his mouth wide.
+
+"ROAR!" he said.
+It was still small. But it was HIS roar.
+And that made it perfect.
+
+Mama clapped her big paws together.
+"A wonderful roar!" she said.
+
+Leo smiled the biggest smile.
+
+The end.`,
+  },
+  {
+    title: 'Mimi the Butterfly',
+    theme: 'animals',
+    language: 'en',
+    content: `Mimi was a caterpillar.
+She was small and green and very, very slow.
+
+All around her, butterflies were flying.
+They were yellow and blue and orange.
+They flew up high into the sky.
+
+"I wish I could fly," said Mimi.
+
+She munched on a leaf. Munch munch munch.
+She felt very sleepy.
+
+So Mimi wrapped herself up in a cozy cocoon.
+It was warm inside. It was safe.
+She slept and slept.
+
+Then one day she felt something different.
+She wiggled. She wriggled. She pushed!
+
+Pop! Out came Mimi.
+
+But Mimi was not a caterpillar anymore.
+She had beautiful wings!
+Orange wings with little black spots!
+
+Mimi flapped her wings once. Twice.
+And then she flew!
+
+UP into the sunny sky!
+She flew over flowers. She flew over the pond.
+
+"I can fly!" Mimi said happily.
+
+Sometimes you just need to wait and rest.
+Good things are coming, little one.`,
+  },
+  {
+    title: 'Benny Bunny Hops',
+    theme: 'animals',
+    language: 'en',
+    content: `Benny was a baby bunny.
+He had long soft ears.
+He had a fluffy little tail.
+And he had four very springy legs.
+
+All the other bunnies could hop.
+Hop! Hop! Hop!
+Over puddles. Over sticks. Over flowers.
+
+But Benny had never hopped before.
+He was a little bit scared.
+
+"What if I fall?" said Benny.
+
+His mama came close.
+"I will be right here," she said. "I will catch you."
+
+Benny took a deep breath.
+He bent his legs. He wiggled his tail.
+He jumped!
+
+HOP!
+
+Benny landed in the soft green grass!
+
+"I hopped!" he shouted. "I really hopped!"
+
+"You did!" said Mama. She was so proud.
+
+Benny hopped again. And again. And again!
+He hopped over a puddle!
+He hopped over a little stick!
+He hopped all the way home!
+
+You can do it too, little one.
+Just take a deep breath and try.`,
   },
 ]

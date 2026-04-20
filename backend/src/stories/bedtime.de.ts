@@ -2,145 +2,293 @@ import { StoryTemplate } from '../types'
 
 export const bedtimeStoriesDe: StoryTemplate[] = [
   {
-    title: 'Das Wiegenlied des Mondes',
+    title: 'Der Mond singt',
     theme: 'bedtime',
     language: 'de',
-    content: `Jeden Abend schaute der Mond auf alle schlafenden Tiere hinunter und sang ein sehr leises Lied. Es war so leise, dass nur die Sterne es hören konnten. Aber die Tiere konnten es fühlen – ein warmes, schläfriges Gefühl, das in ihren Zehen begann und sich bis zu ihren Augenlidern hochkroch.
+    content: `Jeden Abend schaute der Mond auf alle schlafenden Tiere herunter.
+Er sang ein sehr, sehr leises Lied.
+Nur die Sterne konnten es hören.
+Aber die Tiere konnten es spüren.
+Ein warmes, kuscheliges Gefühl kroch von ihren Zehen bis zu ihren Augen.
 
-Das kleine Zaunkönig war das letzte, das noch wach war. Es saß auf seinem Ast und beobachtete, wie die anderen Vögel ihre Köpfe unter ihre Flügel steckten.
+Das kleine Zaunkönig war das letzte, das noch wach war.
+Es saß auf seinem Ast.
 
-„Warum schläfst du nicht?", fragte der Mond.
+„Warum schläfst du nicht?" fragte der Mond.
 
-„Ich habe Angst, etwas zu verpassen", sagte Zaunkönig.
+„Ich habe Angst, etwas zu verpassen," sagte Zaunkönig.
 
-„Was könntest du verpassen?", fragte der Mond sanft.
+„Ich halte über alles Wacht," sagte der Mond.
+„Nichts wird passieren ohne mich.
+Und ich erzähle dir morgen früh alles davon."
 
-Zaunkönig dachte nach. „Etwas Aufregendes. Etwas Wunderbares."
+„Versprochen?" sagte Zaunkönig.
 
-Der Mond lächelte. „Alles Aufregende und Wunderbare wird morgen auf dich warten. Und heute Nacht, während du schläfst, werde ich Wache halten. Nichts Aufregendes wird ohne mein Wissen passieren, und ich erzähle dir morgen früh davon."
+„Versprochen," sagte der Mond.
 
-„Versprochen?", sagte Zaunkönig.
+Zaunkönig steckte den Kopf unter seinen Flügel.
+Der Mond summte sein sanftes Lied.
 
-„Versprochen", sagte der Mond.
+Und Zaunkönig träumte von all den hellen Dingen, die auf morgen warten.
 
-Zaunkönig steckte den Kopf unter seinen Flügel. Der Mond summte sein Wiegenlied.
-
-Und Zaunkönig schlief den wunderbarsten, friedlichsten Schlaf und träumte von hellen Dingen, die morgen auf es warteten.
-
-Der Mond hält auch über dich Wacht, kleines. Alles Wunderbare wird warten. Schlaf jetzt. Schlaf gut.`,
+Der Mond hält auch über dich Wacht, kleines.
+Schlaf jetzt. Schlaf gut.`,
   },
   {
-    title: 'Das Zählschaf, das nicht schlafen konnte',
+    title: 'Wer zählt für die Schafe?',
     theme: 'bedtime',
     language: 'de',
-    content: `Jede Nacht zählten alle kleinen Tiere Schafe, um einzuschlafen. Die Schafe reihten sich auf und sprangen eines nach dem anderen über den Zaun, und die zuschauenden Augen wurden schwerer.
+    content: `Jede Nacht zählten die kleinen Tiere Schafe, um einzuschlafen.
+Ein Schaf. Zwei Schafe. Drei Schafe.
+Und ihre Augen wurden schwerer.
 
-Aber eines Nachts merkte das letzte Schaf – ein kleines, wolliges namens Beau – etwas.
+Aber eines Nachts fragte sich das letzte kleine Schaf — Beau:
+„Wer zählt für UNS?"
 
-„Wer zählt für uns?", fragte sich Beau. „Wir helfen allen anderen beim Einschlafen. Aber was ist mit den Schafen?"
+Er sah sich um. Alle Tiere schliefen bereits.
+Die Sterne waren draußen. Die Grillen sangen.
 
-Beau schaute auf die leere Wiese. Alle Tiere schliefen bereits. Die Sterne waren draußen. Die Grillen sangen.
+Die alte Eule hörte ihn nachdenken.
+„Was ist los, kleines?"
 
-Eine alte Eule hörte Beau nachdenken. „Was beunruhigt dich, kleines?"
+„Ich helfe allen anderen beim Einschlafen," sagte Beau.
+„Aber ich weiß nicht, wie ich selbst einschlafe."
 
-„Ich helfe allen beim Schlafen", sagte Beau. „Aber ich weiß nicht, wie ich selbst schlafen soll."
+„Dann lass mich dich zählen," sagte Eule.
 
-„Dann lass mich dich zählen", sagte die Eule.
+Eules Stimme war tief und sanft.
+„Ein weiches kleines Schaf mit freundlichen Augen.
+Zwei Wolken, die langsam dahintreiben.
+Drei Sterne, die Gute Nacht zwinkern."
 
-Eules Stimme war tief und sanft, wie eine warme Decke. „Ein wolliges Beau, mit weicher Wolle und freundlichen Augen. Zwei Wolken über ihm, langsam dahintreibend. Drei Sterne, die Gute Nacht zwinkern..."
+Beaus Beine fühlten sich schwer an.
+Er legte sich in den weichen Klee.
 
-Beaus Beine begannen sich schwer zu fühlen. Er legte sich in den Klee.
-
-„Vier Glühwürmchen, sanft blinkend. Fünf tiefe Atemzüge..."
+„Vier Glühwürmchen, sanft blinkend.
+Fünf tiefe Atemzüge."
 
 Beau schlief ein, bevor der fünfte kam.
-
-Manchmal braucht man jemanden, der für einen zählt. Das ist, wofür Liebe da ist.
 
 Atme jetzt tief. Eins... zwei... drei...`,
   },
   {
-    title: 'Der Nachtgarten',
+    title: 'Die Blumen in der Nacht',
     theme: 'bedtime',
     language: 'de',
-    content: `Rosa wusste nicht, dass Blumen ein besonderes Geheimnis hatten. Tagsüber standen sie aufrecht und hell und nickten Bienen und Schmetterlingen zu. Aber nachts versammelten sie sich und flüsterten.
+    content: `Rosa kannte das Geheimnis der Blumen nicht.
+Tagsüber standen sie groß und hell da.
+Aber nachts flüsterten sie miteinander.
 
-Eines Nachts blieb Rosa sehr spät auf und spähte nach draußen. Im Mondlicht sah sie die Sonnenblumen, die sich zu den Rosen neigten, und die Rosen, die sich zum Lavendel neigten, und alle murmelten leise.
+Eines Nachts spähte Rosa hinaus.
+Im Mondlicht sah sie die Sonnenblumen, die sich zu den Rosen neigten.
+Und die Rosen, die sich zum Lavendel neigten.
+Alle tuschelten leise.
 
-Sie schlich barfuß hinaus. Das Gras war kalt und taubedeckt.
+Sie schlich barfuß hinaus.
+Das Gras war kühl und taubedeckt.
 
-„Was sagt ihr?", flüsterte sie.
+„Was sagt ihr?" flüsterte sie.
 
-Die größte Sonnenblume wandte sich ihr zu. „Wir erzählen uns, was wir heute gesehen haben", sagte er. „Die Biene, die tanzte. Das Kind, das uns roch. Der Regen, der gerade rechtzeitig kam."
+„Wir erzählen uns von unserem Tag," sagte die größte Sonnenblume.
+„Die Biene, die tanzte. Der Schmetterling, der zu Besuch kam.
+Der Regen, der gerade richtig war."
 
-„Tut ihr das jede Nacht?", fragte Rosa.
+„Tut ihr das jede Nacht?" fragte Rosa.
 
-„Jede Nacht", sagte die Rose. „Der Tag hat so viele gute Dinge. Wir wollen sie nicht vergessen."
+„Jede Nacht," sagte die Rose.
+„Der Tag hat so viele schöne Dinge.
+Wir wollen sie nicht vergessen."
 
-Rosa saß im Garten und lauschte, während die Blumen ihren Tag teilten. Dann wurden ihre Augen schwer, und sie legte sich ins weiche Gras.
+Rosa saß im Garten und lauschte.
+Ihre Augen wurden schwer.
+Sie legte sich ins weiche Gras.
 
-Die Blumen flüsterten weiter und umgaben sie mit ihren stillen Geschichten. Und Rosa träumte von Gärten und Bienen und all den guten Dingen des Tages, die sie nicht bemerkt hatte.
-
-Was sind die guten Dinge, die dir heute passiert sind, kleines? Denke jetzt daran. Lass sie dich in den Schlaf tragen.`,
+Was sind die schönen Dinge, die dir heute passiert sind?
+Denke jetzt daran.
+Lass sie dich in den Schlaf tragen.`,
   },
   {
-    title: 'Papabärs Schlafensspaziergang',
+    title: "Papabärs Einschlafspaziergang",
     theme: 'bedtime',
     language: 'de',
-    content: `Jede Nacht, vor dem Schlafen, nahm Papabär den kleinen Jungbären mit auf ein Geh-ohne-Gehen-Abenteuer.
+    content: `Jeden Abend nahm Papabär den kleinen Jungbären auf einen Spaziergang-ohne-Gehen mit.
 
-„Schließe deine Augen", sagte Papabär. Jungbär kuschelte sich tief unter die warme Decke.
+„Schließe deine Augen," sagte Papabär.
+Jungbär kuschelte sich tief unter die warme, weiche Decke.
 
-„Wir gehen durch den Wald", sagte Papabär. „Kannst du die weichen Kiefernnadeln unter deinen Füßen spüren?"
+„Wir gehen durch den Wald," sagte Papabär.
+„Kannst du die weichen Kiefernnadeln unter deinen Füßen spüren?"
 
-Jungbär wackelte mit den Zehen. „Ja", murmelte er.
+Jungbär wackelte mit den Zehen. „Ja," sagte er leise.
 
-„Jetzt gehen wir zum Bach. Kannst du ihn hören? Rausch-rausch."
+„Jetzt gehen wir zum Bach.
+Kannst du ihn hören? Pschhh... pschhh..."
 
 Jungbärs Atem wurde langsamer.
 
-„Wir sitzen neben dem Bach. Ein Frosch springt. Ein Glühwürmchen blinkt. Das Wasser ist kühl und klar."
+„Wir sitzen am Bach.
+Ein Frosch springt. Ein Glühwürmchen blinkt.
+Das Wasser ist kühl und klar."
 
-Jungbär lächelte.
+Jungbär lächelte ein kleines Lächeln.
 
-„Über uns kommen die Sterne heraus, einer nach dem anderen. Zähle mit mir. Eins... zwei... drei..."
+„Über uns kommen die Sterne heraus.
+Einer nach dem anderen.
+Zähl mit mir. Eins... zwei... drei..."
 
-Bei vier hing Jungbärs Pfote schlaff in Papabärs Hand.
+Bei vier lag Jungbärs kleines Pfötchen still und schlaff.
 
-Papabär sah seinen kleinen, schlafenden Jungbären an und fühlte sich bis zum Rand erfüllt von Liebe.
+Papabär sah seinen schlafenden Jungbären an.
+Er fühlte sich erfüllt von Liebe.
 
-„Gute Nacht, kleines", flüsterte er. „Unser Wald wird morgen noch da sein. Und ich auch."
-
-Er zog die Decke um kleine Schultern. Und die Sterne strahlten die ganze Nacht, stetig und hell.`,
+„Gute Nacht, kleines," flüsterte er.
+„Ich bin hier, wenn du aufwachst."`,
   },
   {
-    title: 'Der Stern, der wartete',
+    title: 'Der Wunschstern',
     theme: 'bedtime',
     language: 'de',
-    content: `Hoch oben im Himmel, mitten in der Nacht, hatte ein kleiner Stern eine wichtige Aufgabe. Sie war der Wunschstern – der hellste. Jede Nacht wartete sie auf Kinder, die Wünsche äußerten.
+    content: `Hoch oben am Himmel hatte ein kleiner Stern eine besondere Aufgabe.
+Er war der Wunschstern, der hellste von allen.
+Jede Nacht wartete er auf Kinder, die Wünsche äußerten.
 
-Aber heute Nacht war es sehr spät und noch niemand hatte nach oben geschaut.
+Aber heute Nacht war es sehr spät.
+Noch niemand hatte hochgeschaut.
 
-„Vielleicht hat jeder vergessen", dachte der kleine Stern. Sie begann ein wenig zu erlöschen.
+„Vielleicht hat jeder vergessen," dachte der kleine Stern.
+Er wurde ein kleines bisschen dunkler.
 
-Aber dann – ein kleines Gesicht erschien in einem Fenster unten. Ein kleines Mädchen namens Ines, das eigentlich schon schlafen sollte, drückte ihre Nase ans Glas und schaute hoch.
+Aber dann — ein kleines Gesicht erschien in einem Fenster unten.
+Ein kleines Mädchen namens Ines drückte die Nase ans Glas.
+Sie schaute hoch.
 
-„Da bist du ja", flüsterte Ines.
+„Da bist du ja," flüsterte Ines.
 
-Der Stern strahlte sofort heller.
+Der Stern leuchtete sofort heller!
 
-Ines schloss die Augen und äußerte ihren Wunsch. Es war ein kleiner, freundlicher Wunsch – dass ihre Großmutter sich besser fühlen möge und dass das Wetter morgen gut sein möge.
+Ines schloss die Augen und äußerte ihren Wunsch.
+Es war ein kleiner und freundlicher Wunsch.
+Dass Oma sich besser fühlen möge.
+Und dass der morgige Tag sonnig sein möge.
 
-Der Stern hielt den Wunsch sorgfältig, wie etwas Kostbares, und schickte ihn sanft ins Universum.
+Der Stern hielt den Wunsch sehr vorsichtig fest.
+Er schickte ihn sanft in den Himmel.
 
-„Danke", flüsterte Ines.
+„Danke," flüsterte Ines.
+„Danke," flüsterte der Stern.
 
-„Danke", flüsterte der Stern.
+Ines ging zurück ins Bett und schlief sofort ein.
 
-Ines ging zurück ins Bett und schlief fast sofort ein.
+Äußere jetzt deinen Wunsch, kleines.
+Der Stern hört zu.`,
+  },
+  {
+    title: 'Die schläfrige Wolke',
+    theme: 'bedtime',
+    language: 'de',
+    content: `Hoch über der Stadt trieb eine flauschige weiße Wolke.
+Den ganzen Tag hatte die Wolke Regen getragen.
+Sie ließ es auf die Blumen regnen. Sie ließ es auf den Garten regnen.
+Sie ließ es auf die Enten regnen, die sagten: „Vielen Dank!"
 
-Und der Stern? Sie strahlte die ganze Nacht weiter und hielt Wacht über alle schlafenden Kinder unten – einschließlich dich.
+Jetzt ging die Sonne unter.
+Die Wolke fühlte sich sehr müde.
 
-Äußere deinen Wunsch, kleines. Sie hört zu.`,
+„Ich bin so schläfrig," sagte die Wolke.
+
+Der Wind blies sanft. „Dann ruh dich aus," sagte der Wind.
+
+„Aber was, wenn jemand noch Regen braucht?" fragte die Wolke.
+
+„Morgen," sagte der Wind. „Heute Nacht ruhst du dich aus."
+
+Die Wolke seufzte einen großen, sanften Seufzer.
+Sie wurde rosa, dann orange, dann lila.
+Dann trieb sie langsam hinter die Hügel.
+
+Die Sterne kamen heraus.
+Der Mond kam heraus.
+Alles war still und ruhig.
+
+Du hast heute auch viel geschafft, kleines.
+Jetzt ist es Zeit zu ruhen.
+Schließe die Augen. Morgen wartet.`,
+  },
+  {
+    title: 'Zehn kleine Gähnungen',
+    theme: 'bedtime',
+    language: 'de',
+    content: `Eine kleine Gähnung wachte in deinem Bauch auf.
+Sie kletterte hoch, hoch, hoch.
+Und — aaah — heraus kam sie!
+
+Zwei kleine Augen wurden schwer.
+Sie blinzelten einmal. Zweimal.
+Sie wollten nicht mehr lange offen bleiben.
+
+Drei kleine Finger wickelten sich um die Decke.
+Warm und weich und kuschelig.
+
+Vier tiefe Atemzüge, langsam und ruhig.
+Ein... und aus.
+Ein... und aus.
+
+Fünf kleine Zehen wackelten einmal.
+Dann blieben sie still.
+Sie waren für heute fertig.
+
+Sechs sanfte Gedanken schwebten durch deinen Kopf.
+Welpen. Regenbögen. Kekse. Sterne. Mama. Papa.
+
+Sieben kleine Sterne blinzelten vor deinem Fenster.
+Sie schauen zu. Du bist sicher.
+
+Acht sanfte Grillengezwitscher kamen herein.
+Zirp, zirp, zirp.
+
+Neun sanfte Wolken segelten am Mond vorbei.
+
+Zehn. Alles ist still.
+Du bist warm.
+Du bist sicher.
+Du wirst geliebt.
+Schlaf jetzt, kleines.`,
+  },
+  {
+    title: 'Das Gutenachtlied',
+    theme: 'bedtime',
+    language: 'de',
+    content: `Jeden Abend vor dem Einschlafen bat das kleine Häschen Mama:
+„Sing mir das Gutenachtlied!"
+
+Mama lächelte immer.
+Sie setzte sich neben das kleine Häschen.
+Sie streichelte die langen, weichen Ohren.
+
+„Gute Nacht, kleine Ohren,
+Gute Nacht, kleine Nase,
+Gute Nacht, kleine Finger,
+Gute Nacht, kleine Zehen."
+
+Das kleine Häschen kicherte.
+„Mehr!" sagte das Häschen.
+
+„Gute Nacht, kleine Augen,
+Gute Nacht, kleines Kinn,
+Gute Nacht, kleiner Bauch,
+Gute Nacht, kleines Grinsen."
+
+Die Augen des kleinen Häschens schlossen sich.
+
+„Noch mehr?" flüsterte Mama.
+
+Keine Antwort.
+Das kleine Häschen schlief tief und fest.
+
+Mama küsste die weiche Stirn.
+„Gute Nacht, mein ganzes kleines Herz," flüsterte sie.
+
+Gute Nacht auch dir, kleines.
+Du wirst so sehr geliebt.`,
   },
 ]

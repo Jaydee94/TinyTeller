@@ -8,7 +8,31 @@ interface Story {
   title: string
   content: string
   theme: string
+  language?: string
   createdAt: string
+}
+
+const PAGE_UI = {
+  en: {
+    loadingLabel: 'Loading story…',
+    errorText: 'Could not load story.',
+    backButton: 'Back to Home',
+  },
+  de: {
+    loadingLabel: 'Geschichte wird geladen…',
+    errorText: 'Geschichte konnte nicht geladen werden.',
+    backButton: 'Zurück',
+  },
+}
+
+function getSavedLanguage(): 'en' | 'de' {
+  try {
+    const saved = localStorage.getItem('tinyteller-language')
+    if (saved === 'de') return 'de'
+  } catch {
+    // localStorage unavailable
+  }
+  return 'en'
 }
 
 export default function StoryPage() {
@@ -17,6 +41,9 @@ export default function StoryPage() {
   const [story, setStory] = useState<Story | null>(null)
   const [isLoading, setLoading] = useState(true)
   const [isError, setError] = useState(false)
+
+  const uiLanguage = story?.language === 'de' || getSavedLanguage() === 'de' ? 'de' : 'en'
+  const t = PAGE_UI[uiLanguage]
 
   useEffect(() => {
     if (!id) {
@@ -46,7 +73,7 @@ export default function StoryPage() {
   if (isLoading) {
     return (
       <div className={styles.centered} aria-live="polite">
-        <span className={styles.loadingSpinner} aria-label="Loading story…" />
+        <span className={styles.loadingSpinner} aria-label={t.loadingLabel} />
       </div>
     )
   }
@@ -54,9 +81,9 @@ export default function StoryPage() {
   if (isError || !story) {
     return (
       <div className={styles.centered} role="alert">
-        <p className={styles.errorText}>Could not load story.</p>
+        <p className={styles.errorText}>{t.errorText}</p>
         <button className={styles.backButton} onClick={() => navigate('/')}>
-          Back to Home
+          {t.backButton}
         </button>
       </div>
     )

@@ -2,160 +2,314 @@ import { StoryTemplate } from '../types'
 
 export const friendshipStories: StoryTemplate[] = [
   {
-    title: 'Two Different Friends',
+    title: 'Milo and Bumble',
     theme: 'friendship',
     language: 'en',
-    content: `Milo the mouse was very neat. He liked straight lines, quiet afternoons, and making lists. His new neighbor, Bumble the bear cub, was very messy. She liked tumbling, loud laughing, and doing everything at once.
+    content: `Milo was a little mouse.
+He liked everything neat and tidy.
 
-"They will never be friends," said the older animals.
+Bumble was a little bear.
+She liked tumbling and giggling.
 
-But one rainy afternoon, Milo was making a list when he heard crying from next door. He peeked out and saw Bumble sitting in the mud, looking very small.
+"They are too different to be friends," said the big animals.
 
-"What happened?" Milo asked.
+But one rainy day, Milo heard crying next door.
+He went to look.
+Bumble was sitting in a mud puddle.
+She looked very sad.
 
-"I dropped my jar of honey and it broke," Bumble sniffled. "It was the last one."
+"What happened?" asked Milo.
 
-Milo thought for a moment. He had some honey he had been saving. Very carefully, he brought it over.
+"I dropped my honey jar," said Bumble. "It broke."
 
-Bumble looked up at him. "You're sharing with me? But I'm so messy and you're so tidy."
+Milo went inside.
+He came back with some of his own honey.
 
-"You're sad," Milo said simply. "That is more important."
+Bumble looked up.
+"You are sharing with me?" she said.
 
-Bumble hugged Milo so hard that his carefully pressed jacket got crinkled. He did not mind at all.
+"You are sad," said Milo. "That matters more."
 
-From then on, Bumble learned to make one small list a day, and Milo learned to tumble in the leaves at least once a week.
+Bumble gave Milo a great big hug.
+His tidy jacket got a little crinkled.
+He did not mind one bit.
 
-They were different in every way. And they were the very best of friends.
+From that day on, they were the very best of friends.
 
 The end.`,
   },
   {
-    title: 'The Friend Who Listened',
+    title: 'Clover Stays',
     theme: 'friendship',
     language: 'en',
-    content: `Hazel the hedgehog had a lot of feelings. Some days she felt like sunshine, other days she felt like a very rainy Tuesday.
+    content: `Hazel the hedgehog woke up feeling sad.
+She did not know why.
+She just felt sad.
 
-One morning Hazel woke up feeling like a rainy Tuesday, and she didn't know why.
+Her friend Clover the rabbit came to visit.
+"Do you want to play?" asked Clover.
 
-Her friend Clover the rabbit came to check on her. "Want to play?" Clover asked.
+"Not today," said Hazel.
 
-"Not really," said Hazel.
+Clover sat down beside her.
+She did not say "cheer up."
+She did not tell Hazel what to do.
+She just sat there quietly.
 
-Clover sat down next to her. She did not suggest games. She did not say "cheer up." She just sat there, quietly, while the breeze moved the grass around them.
+The sun moved slowly across the sky.
+A bee visited a flower.
+A cloud changed shape.
 
-After a while, Hazel said, "I just feel sad. I don't even know why."
+After a while, Hazel said,
+"I feel sad and I don't even know why."
 
-"That's okay," said Clover. "Feelings don't always come with a reason."
+"That's okay," said Clover.
+"I will sit here with you."
 
-Hazel felt something loosen in her chest. "You're not going to try to fix it?"
+Hazel felt a little bit better.
+Not because the sad was gone.
+But because she was not alone.
 
-"I can't fix feelings," said Clover. "But I can sit with you while you have them."
-
-They sat together for a long time. A bee visited a flower. A cloud changed shape. Slowly, Hazel's sad feeling began to lift — not because it was fixed, but because she wasn't carrying it alone.
-
-"Thank you for staying," she said.
+"Thank you for staying," said Hazel.
 
 "Always," said Clover.
 
-Being with someone when they are sad is one of the kindest things you can do. Goodnight, little one.`,
+Goodnight, little one.`,
   },
   {
-    title: 'The Argument and the Apple Tree',
+    title: 'Sorry at the Apple Tree',
     theme: 'friendship',
     language: 'en',
-    content: `Sam and Leo had been best friends since before they could remember. They played together every day. But one afternoon, they argued about which apple was the biggest.
+    content: `Sam and Leo were best friends.
+They played together every single day.
 
-"That one," said Sam.
+But one afternoon, they had an argument.
+It was about which apple was the biggest.
 
-"No, that one," said Leo.
+"That one!" said Sam.
+"No, that one!" said Leo.
 
-"You never listen," said Sam.
+They both stomped away.
+Sam went one way. Leo went the other.
 
-"You never share," said Leo.
+Sam tried to play alone.
+It was not fun.
 
-They stomped away to opposite ends of the meadow and sat with their arms crossed.
+Leo tried to climb a tree alone.
+It was not fun either.
 
-The afternoon went very slowly. Sam tried to build a twig tower by himself, but it wasn't as fun. Leo tried to climb the oak tree alone, but it was better with someone to spot him.
+When the sun turned orange, they both walked back.
+They walked toward the apple tree.
+They got there at the same moment.
 
-As the sun turned orange, they both drifted back toward the apple tree. They arrived at the same moment and stopped, looking at each other.
+They looked at each other.
 
-"I'm sorry," they both said at exactly the same time.
+"I'm sorry," said Sam.
+"I'm sorry," said Leo.
 
+They said it at the exact same time!
 Then they both laughed.
 
-"The argument was silly," said Sam.
+"That was silly," said Sam.
 
-"Very silly," said Leo.
+"Very silly," said Leo. "You pick first."
 
-"Which apple do you want?" Sam asked.
+Sam picked the smaller apple and smiled.
+"Friends share," he said.
 
-"You pick first," said Leo.
+They sat together and ate.
+Everything was good again.
 
-Sam chose the smaller one. Leo raised his eyebrows.
-
-"Friends share," Sam said, and smiled.
-
-Leo smiled back. They sat under the apple tree and ate, and the afternoon was good again.
-
-Even best friends argue sometimes. What matters is coming back.`,
+Even best friends argue sometimes. Coming back is what counts.`,
   },
   {
-    title: 'A New Friend at the Pond',
+    title: 'Felix and the New Friend',
     theme: 'friendship',
     language: 'en',
-    content: `Every morning, Felix the frog sat on his lily pad and watched the pond. He knew every ripple, every reed, every fish. He liked it that way.
+    content: `Felix the frog sat on his lily pad every morning.
+He knew everything about his pond.
+He liked it just the way it was.
 
-One morning, a new creature arrived. She was small and orange and had a very bushy tail.
+One morning, a small orange squirrel came to the pond.
 
-"Hello," she said. "I'm Fern. I'm a squirrel. I've never been to a pond before."
+"Hello!" she said. "I am Fern. I have never seen a pond before!"
 
-Felix blinked. "You should be careful. The mud is slippery."
+"Watch out for the mud," said Felix. "It is slippery."
 
-Fern stepped onto a rock and immediately slipped. Felix hopped over quickly and helped her up.
+Fern stepped onto a rock.
+Splash! She slipped right into the water.
 
-"You were right about the mud," said Fern, dripping.
+Felix hopped over quickly to help her up.
 
-"Are you okay?" Felix asked.
+"You were right about the mud," said Fern, all wet.
 
-"I am now," she said. "Thank you."
+"Are you okay?" asked Felix.
 
-They sat on Felix's lily pad — which was a bit crowded — and Fern told Felix about the treetops, where you could see for miles and miles. Felix told Fern about the deep, cool water, where it was always quiet.
+"I am now. Thank you!"
 
-"I've never seen either of those things," they both said at the same time, and then laughed.
+They sat on the lily pad together.
+Fern told Felix about the tall treetops.
+Felix told Fern about the cool, quiet deep water.
 
-"Someday I'll show you the treetops," said Fern.
+"I have never seen either!" they both said.
+Then they laughed.
 
-"Someday I'll show you the deep water," said Felix.
-
-They watched the dragonflies dance until it was time to go home.
+"I will show you the treetops one day," said Fern.
+"I will show you the deep water one day," said Felix.
 
 New friends are one of the best surprises in the world.`,
   },
   {
-    title: 'The Gift That Cost Nothing',
+    title: "Cricket's Kind Words",
     theme: 'friendship',
     language: 'en',
-    content: `It was Nora the mouse's birthday, and all her friends wanted to bring her something special.
+    content: `It was Nora's birthday!
+All her friends brought her gifts.
 
-Robin brought a bright red feather. Squirrel brought three acorns. Frog brought a smooth, round pebble from the stream.
+Robin brought a red feather.
+Squirrel brought three acorns.
+Frog brought a smooth, round pebble.
 
-But little Cricket had nothing to bring. She had searched all day and found nothing gift-worthy. She was the last to arrive, with empty hands, her head hanging low.
+But little Cricket had nothing.
+She had looked all day.
+She could not find anything to bring.
 
-"I'm sorry, Nora," Cricket said. "I don't have a present."
+Cricket arrived last.
+Her hands were empty.
+Her head was hanging low.
 
-Nora looked at her kindly. "Then give me something better. Tell me something true."
+"I am sorry, Nora," said Cricket. "I have no gift."
 
-Cricket thought. "You are the friend who always makes me feel less small," she said.
+Nora smiled kindly.
+"Then give me something better," she said.
+"Tell me something true."
 
-Nora's eyes went bright. She took Cricket's tiny hand.
+Cricket thought.
 
-"That is the best gift I have received today," Nora said.
+"You always make me feel less small," Cricket said softly.
 
-Cricket felt warm all over. She hadn't known that words could be gifts. But of course they could — the right words, said sincerely, are some of the most beautiful presents in the world.
+Nora's eyes went bright.
+She took Cricket's little hand.
 
-They had a wonderful party, and after the feather and acorns and pebble were admired, it was Cricket's words that everyone remembered.
+"That is the best gift of all," said Nora.
 
-Tell the people you love what you love about them. It costs nothing and means everything.
+Cricket felt warm all over.
+
+Words can be gifts too.
+The right words mean everything.
+
+The end.`,
+  },
+  {
+    title: 'The New Neighbor',
+    theme: 'friendship',
+    language: 'en',
+    content: `A new family moved in next door.
+They had a little girl named Lena.
+
+Lena stood at the fence.
+She looked a little scared.
+
+Ben was in his garden.
+He saw Lena.
+He walked over slowly.
+
+"Hello," said Ben. "I am Ben."
+
+"Hello," said Lena. "I am Lena. I am new."
+
+"I know," said Ben. "Do you want to see my garden?"
+
+Lena nodded.
+
+Ben showed her the sunflowers.
+He showed her the ladybug on the big leaf.
+He showed her the round, red berries.
+
+"Wow," said Lena. Her eyes were wide.
+
+"You can visit any time," said Ben.
+
+Lena smiled for the first time that day.
+
+When she went home, her mama asked,
+"Did you make a friend?"
+
+"I think so," said Lena. "His name is Ben."
+
+It only takes one hello to make a new friend.`,
+  },
+  {
+    title: 'The Big Hug',
+    theme: 'friendship',
+    language: 'en',
+    content: `Max was having a bad day.
+He fell down and hurt his knee.
+He dropped his sandwich in a puddle.
+He could not find his red ball.
+
+He sat on the step outside and felt very sorry for himself.
+
+His friend Lily came running over.
+She did not say anything.
+She just opened her arms wide.
+
+Max walked right into that hug.
+
+Lily hugged him tight.
+Max hugged Lily tight.
+
+They stayed like that for a whole minute.
+
+Then Max felt a little bit better.
+
+"I had a bad day," said Max.
+
+"I know," said Lily. "Me too, sometimes."
+
+"Does it help?" asked Max.
+
+"The hug? Yes," said Lily. "A lot."
+
+Max smiled.
+
+Sometimes a hug is all you need.
+Give someone a hug today, little one.`,
+  },
+  {
+    title: 'We Are Different, We Are Friends',
+    theme: 'friendship',
+    language: 'en',
+    content: `Finn was tall.
+Mia was small.
+
+Finn liked loud music and dancing.
+Mia liked quiet books and drawing.
+
+Finn was fast.
+Mia was slow.
+
+"They are too different," said the other children.
+
+But Finn loved Mia's drawings.
+And Mia loved Finn's dancing.
+
+One day Mia drew a picture.
+It was a picture of them both, dancing and drawing together.
+
+She gave it to Finn.
+
+Finn looked at it for a long time.
+"This is the best thing anyone has ever given me," he said.
+
+"We are different," said Mia.
+"But that is okay."
+"That is actually kind of great," said Finn.
+
+They became the best of friends.
+
+Being different is wonderful.
+The world would be boring if we were all the same.
 
 The end.`,
   },
