@@ -1,6 +1,7 @@
 .page {
   flex: 1;
   padding: var(--space-xl) var(--space-lg);
+  background-color: var(--color-bg);
 }
 
 .centered {
@@ -11,13 +12,14 @@
   justify-content: center;
   gap: var(--space-lg);
   padding: var(--space-xl);
+  background-color: var(--color-bg);
 }
 
 .loadingSpinner {
   display: block;
-  width: 56px;
-  height: 56px;
-  border: 6px solid rgba(59, 47, 47, 0.15);
+  width: 60px;
+  height: 60px;
+  border: 6px solid rgba(142, 202, 230, 0.25);
   border-top-color: var(--color-accent);
   border-radius: 50%;
   animation: spin 0.9s linear infinite;
@@ -30,6 +32,7 @@
 .errorText {
   font-size: var(--font-size-lg);
   color: var(--color-error);
+  font-weight: 600;
 }
 
 .backButton {
@@ -39,11 +42,14 @@
   border-radius: var(--radius-full);
   padding: var(--space-sm) var(--space-xl);
   font-size: var(--font-size-md);
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
+  box-shadow: var(--shadow-magic);
   transition: transform var(--transition-normal);
+  font-family: var(--font-base);
 }
 
 .backButton:hover {
   transform: scale(1.05);
 }
+
