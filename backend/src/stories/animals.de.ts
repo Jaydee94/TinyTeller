@@ -10,7 +10,7 @@ Er wohnte an einem großen, glänzenden Teich.
 
 Jeden Tag sagte Pip: „Quak! Quak! Quak!"
 Er quakte die Frösche an. Er quakte die Fische an.
-Er quakte sogar sein eigenes Gesicht im Wasser an!
+Er quakte sogar sein Spiegelbild im Wasser an!
 
 Eines Morgens wachte Pip auf und versuchte zu quaken.
 Aber nichts kam heraus!
@@ -178,7 +178,7 @@ Der Wald war leuchtend grün.
 Die Wolken segelten langsam vorbei.
 
 Dann kam der Wind.
-Er zerzauste Tommys Hals. Er drückte gegen seinen Panzer.
+Er strich sanft über Tommys Hals. Er drückte gegen seinen Panzer.
 
 Tommy schloss die Augen.
 Er spürte den Wind in seinem Gesicht.

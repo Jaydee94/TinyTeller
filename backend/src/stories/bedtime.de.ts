@@ -11,8 +11,8 @@ Nur die Sterne konnten es hören.
 Aber die Tiere konnten es spüren.
 Ein warmes, kuscheliges Gefühl kroch von ihren Zehen bis zu ihren Augen.
 
-Das kleine Zaunkönig war das letzte, das noch wach war.
-Es saß auf seinem Ast.
+Der kleine Zaunkönig war der letzte, der noch wach war.
+Er saß auf seinem Ast.
 
 „Warum schläfst du nicht?" fragte der Mond.
 
@@ -172,7 +172,7 @@ Dass Oma sich besser fühlen möge.
 Und dass der morgige Tag sonnig sein möge.
 
 Der Stern hielt den Wunsch sehr vorsichtig fest.
-Er schickte ihn sanft in den Himmel.
+Er trug ihn sanft durch die Nacht.
 
 „Danke," flüsterte Ines.
 „Danke," flüsterte der Stern.
@@ -243,7 +243,7 @@ Welpen. Regenbögen. Kekse. Sterne. Mama. Papa.
 Sieben kleine Sterne blinzelten vor deinem Fenster.
 Sie schauen zu. Du bist sicher.
 
-Acht sanfte Grillengezwitscher kamen herein.
+Acht sanfte Grillenzirpen kamen herein.
 Zirp, zirp, zirp.
 
 Neun sanfte Wolken segelten am Mond vorbei.
