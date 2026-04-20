@@ -1,0 +1,45 @@
+/* Design tokens */
+:root {
+  /* Colors */
+  --color-bg: #fff7e6;
+  --color-surface: #ffffff;
+  --color-text: #3b2f2f;
+  --color-text-muted: #7a6060;
+  --color-accent: #f9a03f;
+  --color-accent-dark: #e08826;
+  --color-error: #c0392b;
+  --color-error-light: #fde8e6;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Typography */
+  --font-base: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.375rem;
+  --font-size-xl: 1.75rem;
+  --font-size-2xl: 2.25rem;
+  --font-size-story: 1.3rem;
+  --line-height-story: 1.85;
+
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 2rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-magic: 0 8px 32px rgba(249, 160, 63, 0.4);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}

@@ -1,37 +1,31 @@
 version: '3.8'
-services:
-  postgres:
-    image: postgres:15-alpine
-    restart: unless-stopped
-    environment:
-      POSTGRES_USER: tiny
-      POSTGRES_PASSWORD: tiny
-      POSTGRES_DB: tiny_teller
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
 
+services:
   backend:
-    build: ./backend
-    depends_on:
-      - postgres
-    environment:
-      DATABASE_URL: postgres://tiny:tiny@postgres:5432/tiny_teller
-      PORT: 8080
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
+    environment:
+      PORT: "8080"
+      NODE_ENV: production
+      # Override CORS_ORIGIN to match your frontend URL when deploying outside localhost
+      CORS_ORIGIN: "${CORS_ORIGIN:-http://localhost:3000}"
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8080/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
 
   frontend:
-    build: ./frontend
-    depends_on:
-      - backend
-    environment:
-      VITE_API_BASE: http://localhost:8080/api
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     ports:
       - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
     restart: unless-stopped
-
-volumes:
-  pgdata:
