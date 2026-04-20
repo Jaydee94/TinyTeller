@@ -4,12 +4,12 @@
   padding: var(--space-xl) var(--space-xl);
   box-shadow:
     var(--shadow-soft),
-    0 1px 0 rgba(0, 0, 0, 0.04) inset;
+    0 1px 0 rgba(255, 255, 255, 0.04) inset;
   max-width: 680px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-  /* Left-edge binding hint */
+  /* Left-edge binding hint — golden */
   border-left: 6px solid var(--color-star);
 }
 
@@ -21,7 +21,7 @@
   right: 0;
   width: 36px;
   height: 36px;
-  background: linear-gradient(225deg, var(--color-bg) 50%, transparent 50%);
+  background: linear-gradient(225deg, #1B1340 50%, transparent 50%);
   border-radius: 0 0 var(--radius-xl) 0;
   pointer-events: none;
 }
@@ -79,7 +79,7 @@
 
 .again {
   background: var(--color-accent);
-  color: #fff;
+  color: #1B1340;
   border: none;
   border-radius: var(--radius-full);
   padding: var(--space-md) var(--space-2xl);
@@ -95,7 +95,7 @@
 
 .again:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 38px rgba(255, 158, 74, 0.5);
+  box-shadow: 0 12px 44px rgba(255, 209, 102, 0.65);
 }
 
 .again:active {

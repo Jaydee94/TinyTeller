@@ -1,17 +1,17 @@
-/* Design tokens */
+/* Design tokens — Dreamy Nightsky theme */
 :root {
   /* Colors */
-  --color-bg: #F8F9FA;
-  --color-surface: #ffffff;
-  --color-text: #2D3748;
-  --color-text-muted: #718096;
-  --color-accent: #FF9E4A;
-  --color-accent-dark: #e8832e;
-  --color-sky: #8ECAE6;
+  --color-bg: #1B1340;
+  --color-surface: #2E2060;
+  --color-text: #F5F0FF;
+  --color-text-muted: #C9A7FF;
+  --color-accent: #FFD166;
+  --color-accent-dark: #FFAA00;
+  --color-sky: #E8ECF7;
   --color-star: #FFD166;
-  --color-border: #e8edf2;
-  --color-error: #e53e3e;
-  --color-error-light: #fff5f5;
+  --color-border: #3D2F7A;
+  --color-error: #FF7070;
+  --color-error-light: rgba(255, 112, 112, 0.15);
 
   /* Spacing */
   --space-xs: 0.25rem;
@@ -39,11 +39,11 @@
   --radius-xl: 2.25rem;    /* 36 px */
   --radius-full: 9999px;
 
-  /* Shadows */
-  --shadow-soft: 0 10px 25px rgba(0, 0, 0, 0.05);
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.08);
-  --shadow-magic: 0 8px 32px rgba(255, 158, 74, 0.38);
+  /* Shadows — deeper for dark theme */
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.4);
+  --shadow-magic: 0 8px 36px rgba(255, 209, 102, 0.5);
 
   /* Transitions */
   --transition-fast: 150ms ease;

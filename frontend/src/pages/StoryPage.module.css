@@ -1,7 +1,7 @@
 .page {
   flex: 1;
   padding: var(--space-xl) var(--space-lg);
-  background-color: var(--color-bg);
+  background-color: transparent;
 }
 
 .centered {
@@ -12,14 +12,14 @@
   justify-content: center;
   gap: var(--space-lg);
   padding: var(--space-xl);
-  background-color: var(--color-bg);
+  background-color: transparent;
 }
 
 .loadingSpinner {
   display: block;
   width: 60px;
   height: 60px;
-  border: 6px solid rgba(142, 202, 230, 0.25);
+  border: 6px solid rgba(255, 209, 102, 0.2);
   border-top-color: var(--color-accent);
   border-radius: 50%;
   animation: spin 0.9s linear infinite;
@@ -37,7 +37,7 @@
 
 .backButton {
   background: var(--color-accent);
-  color: #fff;
+  color: #1B1340;
   border: none;
   border-radius: var(--radius-full);
   padding: var(--space-sm) var(--space-xl);
