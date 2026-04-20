@@ -1,0 +1,32 @@
+# Quick-start using pre-built images from GitHub Container Registry.
+# No local build required.
+#
+# Usage:
+#   docker compose -f docker-compose.ghcr.yml up
+#   podman compose -f docker-compose.ghcr.yml up
+
+services:
+  backend:
+    image: ghcr.io/jaydee94/tiny-teller-backend:${BACKEND_TAG:-latest}
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: "8080"
+      NODE_ENV: production
+      # Override CORS_ORIGIN to match your frontend URL when deploying outside localhost
+      CORS_ORIGIN: "${CORS_ORIGIN:-http://localhost:3000}"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8080/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  frontend:
+    image: ghcr.io/jaydee94/tiny-teller-frontend:${FRONTEND_TAG:-latest}
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped

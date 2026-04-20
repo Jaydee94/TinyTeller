@@ -49,7 +49,38 @@
 
 ---
 
-## 🐳 Quick Start — Docker Compose
+## 🚀 Quick Start — Pre-built Images (fastest)
+
+No build step required — pulls the latest images directly from the GitHub Container Registry.
+
+Requires: [Docker](https://docs.docker.com/get-docker/) with Compose V2 **or** [Podman](https://podman.io/) with `podman-compose`.
+
+```bash
+# Docker
+docker compose -f docker-compose.ghcr.yml up
+
+# Podman
+podman compose -f docker-compose.ghcr.yml up
+```
+
+| Service  | URL |
+|----------|-----|
+| Frontend | http://localhost:3000 |
+| Backend  | http://localhost:8080/api/health |
+
+To pin a specific release, set the image tag (e.g. `1.0.0`):
+
+```bash
+BACKEND_TAG=1.0.0 FRONTEND_TAG=1.0.0 \
+  docker compose -f docker-compose.ghcr.yml up
+```
+
+> Images are published to `ghcr.io/jaydee94/tiny-teller-backend` and  
+> `ghcr.io/jaydee94/tiny-teller-frontend` on every versioned release.
+
+---
+
+## 🐳 Quick Start — Docker Compose (build from source)
 
 Requires: [Docker](https://docs.docker.com/get-docker/) with Compose V2.
 
@@ -162,8 +193,8 @@ cd frontend && npm test
 | `release.yml` | push tag `v*.*.*` | build + push multi-arch images to `ghcr.io` |
 
 Images are published to:
-- `ghcr.io/jaydee94/tiny-teller-backend:<version>`
-- `ghcr.io/jaydee94/tiny-teller-frontend:<version>`
+- `ghcr.io/jaydee94/tiny-teller-backend:<version>` / `:latest`
+- `ghcr.io/jaydee94/tiny-teller-frontend:<version>` / `:latest`
 
 ---
 
