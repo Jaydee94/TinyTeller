@@ -34,7 +34,9 @@ export default function RegistrationPage() {
 
       if (data?.token) {
         // MVP: store token client-side and navigate to app
-        localStorage.setItem('authToken', data.token)
+        // use centralized helper for easier future changes
+        const { setToken } = await import('../lib/auth')
+        setToken(data.token)
       }
       navigate('/app')
     } catch (err) {

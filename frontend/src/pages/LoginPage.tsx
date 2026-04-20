@@ -33,7 +33,8 @@ export default function LoginPage() {
       }
 
       if (data?.token) {
-        localStorage.setItem('authToken', data.token)
+        const { setToken } = await import('../lib/auth')
+        setToken(data.token)
       }
       navigate('/app')
     } catch (err) {
