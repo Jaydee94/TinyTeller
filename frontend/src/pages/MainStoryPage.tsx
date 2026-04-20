@@ -12,9 +12,23 @@ export default function MainStoryPage() {
     setError(null)
     setLoading(true)
     try {
-      // For MVP we simulate the API call and navigate to story display with a fake id
+      // Try calling backend generate endpoint. If it fails, fall back to simulated id.
+      const resp = await fetch('/api/stories/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({})
+      })
+
+      if (resp.ok) {
+        const data = await resp.json()
+        if (data && data.id) {
+          navigate(`/app/story/${data.id}`)
+          return
+        }
+      }
+
+      // Fallback simulated response when backend missing or returns non-ideal response
       await new Promise((res) => setTimeout(res, 900))
-      // In future: call POST /api/stories/generate and use returned id
       navigate('/app/story/00000000-0000-0000-0000-000000000001')
     } catch (err) {
       setError('Could not generate story. Please try again.')

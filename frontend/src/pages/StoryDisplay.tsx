@@ -33,11 +33,18 @@ export default function StoryDisplay() {
       setError(null)
 
       try {
-        // MVP: simulate fetching the story. In production call `/api/stories/:id`.
-        await new Promise((res) => setTimeout(res, 400))
-
-        // Create a plausible story based on the id so navigation shows a different story
+        // First try real backend endpoint
         const id = storyId || '00000000-0000-0000-0000-000000000000'
+        const resp = await fetch(`/api/stories/${encodeURIComponent(id)}`)
+
+        if (resp.ok) {
+          const data = await resp.json()
+          if (!cancelled) setStory({ id: data.id, title: data.title, content: data.content })
+          return
+        }
+
+        // Fallback: simulate fetching the story so UI remains testable offline
+        await new Promise((res) => setTimeout(res, 400))
         const suffix = id.slice(-4)
         const fetched: Story = {
           id,
