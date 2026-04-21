@@ -1,50 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="860" viewBox="0 0 720 860" role="img" aria-label="TinyTeller story screen">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="900" viewBox="0 0 720 900" role="img" aria-label="TinyTeller story screen (English, Animals)">
   <defs>
-    <style>
-      text { font-family: 'Nunito', 'Segoe UI', system-ui, sans-serif; }
-    </style>
-    <filter id="shadow-card">
-      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="rgba(0,0,0,0.06)"/>
+    <style>text { font-family: 'Nunito', 'Segoe UI', system-ui, sans-serif; }</style>
+    <filter id="f-card" x="-5%" y="-2%" width="110%" height="106%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="rgba(0,0,0,0.5)"/>
     </filter>
-    <filter id="shadow-magic">
-      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="rgba(255,158,74,0.42)"/>
+    <filter id="f-magic" x="-30%" y="-50%" width="160%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="rgba(255,209,102,0.5)"/>
     </filter>
-    <clipPath id="card-clip">
-      <rect x="20" y="30" width="680" height="800" rx="36"/>
-    </clipPath>
   </defs>
 
   <!-- Background -->
-  <rect width="720" height="860" fill="#F8F9FA"/>
+  <rect width="720" height="900" fill="#1B1340"/>
+
+  <!-- Background star decorations -->
+  <circle cx="30" cy="25" r="1.5" fill="#E8ECF7" opacity="0.6"/>
+  <circle cx="690" cy="18" r="1" fill="#FFD166" opacity="0.7"/>
+  <circle cx="700" cy="870" r="1.2" fill="#E8ECF7" opacity="0.5"/>
+  <circle cx="20" cy="880" r="0.8" fill="#FFD166" opacity="0.6"/>
+  <path d="M680 40 L681 43 L684 44 L681 45 L680 48 L679 45 L676 44 L679 43 Z" fill="#FFD166" opacity="0.65"/>
 
   <!-- ─── Story Card ─── -->
-  <!-- card shadow + base -->
-  <rect x="20" y="30" width="680" height="800" rx="36" fill="#ffffff" filter="url(#shadow-card)"/>
+  <rect x="20" y="20" width="680" height="840" rx="36" fill="#2E2060" filter="url(#f-card)"/>
 
-  <!-- left yellow binding border -->
-  <rect x="20" y="30" width="6" height="800" rx="3" fill="#FFD166"/>
+  <!-- Left golden binding border -->
+  <rect x="20" y="20" width="6" height="840" rx="3" fill="#FFD166"/>
 
-  <!-- page-curl decoration bottom-right -->
-  <polygon points="684,794 720,830 684,830" fill="#F8F9FA"/>
+  <!-- Page-curl decoration (bottom-right corner) -->
+  <polygon points="664,860 700,824 700,860" fill="#1B1340"/>
 
   <!-- ─── Card Header ─── -->
   <!-- Theme emoji -->
-  <text x="60" y="102" font-size="40">🐾</text>
+  <text x="58" y="102" font-size="40">🐾</text>
 
   <!-- Story title -->
-  <text x="116" y="87" font-size="26" font-weight="800" fill="#2D3748">The Little Duck Who</text>
-  <text x="116" y="116" font-size="26" font-weight="800" fill="#2D3748">Lost His Quack</text>
+  <text x="114" y="87" font-size="26" font-weight="800" fill="#F5F0FF">The Little Duck Who</text>
+  <text x="114" y="116" font-size="26" font-weight="800" fill="#F5F0FF">Lost His Quack</text>
 
   <!-- Language badge -->
-  <rect x="540" y="68" width="88" height="28" rx="14" fill="#e8edf2"/>
-  <text x="584" y="87" font-size="13" font-weight="700" fill="#718096" text-anchor="middle">🇬🇧 EN</text>
+  <rect x="544" y="68" width="88" height="28" rx="14" fill="#3D2F7A"/>
+  <text x="588" y="87" font-size="13" font-weight="700" fill="#C9A7FF" text-anchor="middle">🇬🇧 EN</text>
 
   <!-- Divider -->
-  <line x1="44" y1="148" x2="676" y2="148" stroke="#e8edf2" stroke-width="1.5"/>
+  <line x1="44" y1="148" x2="676" y2="148" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
 
   <!-- ─── Story Content ─── -->
   <!-- Paragraph 1 -->
-  <text x="44" y="183" font-size="19" fill="#2D3748">
+  <text x="44" y="184" font-size="19" fill="#F5F0FF">
     <tspan x="44" dy="0">Once upon a time, in a pond surrounded by tall green</tspan>
     <tspan x="44" dy="30">reeds, there lived a small yellow duck named Pip.</tspan>
     <tspan x="44" dy="30">Every morning Pip would wake up and quack a happy</tspan>
@@ -52,7 +53,7 @@
   </text>
 
   <!-- Paragraph 2 -->
-  <text x="44" y="340" font-size="19" fill="#2D3748">
+  <text x="44" y="342" font-size="19" fill="#F5F0FF">
     <tspan x="44" dy="0">Pip searched high and low. He looked under the lily</tspan>
     <tspan x="44" dy="30">pads, behind the old oak tree, and even inside a</tspan>
     <tspan x="44" dy="30">friendly frog's hollow log. "Have you seen my quack?"</tspan>
@@ -60,7 +61,7 @@
   </text>
 
   <!-- Paragraph 3 -->
-  <text x="44" y="492" font-size="19" fill="#2D3748">
+  <text x="44" y="494" font-size="19" fill="#F5F0FF">
     <tspan x="44" dy="0">Then a wise old tortoise smiled and said, "Sometimes</tspan>
     <tspan x="44" dy="30">the things we lose are just waiting for the right</tspan>
     <tspan x="44" dy="30">moment." Pip took a deep breath, closed his eyes…</tspan>
@@ -68,13 +69,13 @@
   </text>
 
   <!-- Paragraph 4 -->
-  <text x="44" y="644" font-size="19" fill="#2D3748">
+  <text x="44" y="646" font-size="19" fill="#F5F0FF">
     <tspan x="44" dy="0">All the animals cheered. Pip waddled home through</tspan>
     <tspan x="44" dy="30">the golden evening light, happy and whole. That night</tspan>
-    <tspan x="44" dy="30">he fell asleep with a tiny smile.</tspan>
+    <tspan x="44" dy="30">he fell asleep with a tiny smile. 🐾</tspan>
   </text>
 
   <!-- ─── Another Story Button ─── -->
-  <rect x="240" y="762" width="240" height="50" rx="25" fill="#FF9E4A" filter="url(#shadow-magic)"/>
-  <text x="360" y="793" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">✨ Another Story</text>
+  <rect x="220" y="772" width="280" height="50" rx="25" fill="#FFD166" filter="url(#f-magic)"/>
+  <text x="360" y="803" font-size="19" font-weight="700" fill="#1B1340" text-anchor="middle">✨ Another Story</text>
 </svg>
