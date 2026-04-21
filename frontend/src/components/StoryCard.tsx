@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import { useTTS } from '../hooks/useTTS'
 import styles from './StoryCard.module.css'
 
 interface Story {
@@ -31,11 +32,20 @@ const ANOTHER_STORY_LABEL: Record<string, string> = {
   de: '✨ Noch eine Geschichte',
 }
 
+const TTS_LABELS: Record<string, { play: string; pause: string; stop: string }> = {
+  en: { play: '🔊 Read Aloud', pause: '⏸ Pause', stop: '⏹ Stop' },
+  de: { play: '🔊 Vorlesen', pause: '⏸ Pause', stop: '⏹ Stopp' },
+}
+
 export default function StoryCard({ story }: StoryCardProps) {
   const navigate = useNavigate()
   const emoji = THEME_EMOJI[story.theme] ?? '✨'
   const languageLabel = story.language ? LANGUAGE_LABEL[story.language] : null
   const anotherStoryLabel = ANOTHER_STORY_LABEL[story.language ?? 'en'] ?? ANOTHER_STORY_LABEL.en
+  const ttsLabels = TTS_LABELS[story.language ?? 'en'] ?? TTS_LABELS.en
+
+  const fullText = `${story.title}. ${story.content}`
+  const { ttsState, supported, toggle, stop } = useTTS(fullText, story.language ?? 'en')
 
   return (
     <article className={styles.card}>
@@ -56,6 +66,26 @@ export default function StoryCard({ story }: StoryCardProps) {
       </div>
 
       <footer className={styles.footer}>
+        {supported && (
+          <div className={styles.ttsControls}>
+            <button
+              className={`${styles.ttsButton} ${ttsState === 'playing' ? styles.ttsButtonActive : ''}`}
+              onClick={toggle}
+              aria-label={ttsState === 'playing' ? ttsLabels.pause : ttsLabels.play}
+            >
+              {ttsState === 'playing' ? ttsLabels.pause : ttsLabels.play}
+            </button>
+            {ttsState !== 'idle' && (
+              <button
+                className={styles.ttsStopButton}
+                onClick={stop}
+                aria-label={ttsLabels.stop}
+              >
+                {ttsLabels.stop}
+              </button>
+            )}
+          </div>
+        )}
         <button
           className={styles.again}
           onClick={() => navigate('/')}
