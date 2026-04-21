@@ -2,6 +2,13 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 
 export type TTSState = 'idle' | 'playing' | 'paused'
 
+const DEFAULT_SPEECH_RATE = 0.9
+const DEFAULT_SPEECH_PITCH = 1.05
+
+const SCORE_NARRATOR_VOICE = 2
+const SCORE_ENHANCED_VOICE = 3
+const SCORE_LOCAL_SERVICE = 1
+
 function pickVoice(lang: string): SpeechSynthesisVoice | null {
   const voices = window.speechSynthesis.getVoices()
   if (voices.length === 0) return null
@@ -15,9 +22,9 @@ function pickVoice(lang: string): SpeechSynthesisVoice | null {
       const name = v.name.toLowerCase()
       // Prefer voices that sound like narrators
       const score =
-        (name.includes('female') || name.includes('woman') ? 2 : 0) +
-        (name.includes('neural') || name.includes('natural') || name.includes('enhanced') ? 3 : 0) +
-        (v.localService ? 1 : 0)
+        (name.includes('female') || name.includes('woman') ? SCORE_NARRATOR_VOICE : 0) +
+        (name.includes('neural') || name.includes('natural') || name.includes('enhanced') ? SCORE_ENHANCED_VOICE : 0) +
+        (v.localService ? SCORE_LOCAL_SERVICE : 0)
       return { voice: v, score }
     })
     .sort((a, b) => b.score - a.score)
@@ -53,8 +60,8 @@ export function useTTS(text: string, lang: string = 'en') {
 
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = lang.startsWith('de') ? 'de-DE' : 'en-US'
-    utterance.rate = 0.9
-    utterance.pitch = 1.05
+    utterance.rate = DEFAULT_SPEECH_RATE
+    utterance.pitch = DEFAULT_SPEECH_PITCH
 
     const applyVoice = () => {
       const voice = pickVoice(lang)
@@ -63,7 +70,6 @@ export function useTTS(text: string, lang: string = 'en') {
 
     applyVoice()
 
-    utterance.onstart = () => setTtsState('playing')
     utterance.onend = () => {
       setTtsState('idle')
       utteranceRef.current = null
